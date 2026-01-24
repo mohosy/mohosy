@@ -7,18 +7,16 @@
 I build systems that scale. At 19, I shipped an AI chatbot serving **30,000+ students** and got **featured in Forbes**. Currently building a social app with **470+ beta testers**.
 
 <a href="https://readme-typing-svg.demolab.com/demo/">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=14&duration=3000&pause=1500&color=8B949E&vCenter=true&width=350&lines=Forbes-Featured+Engineer;1st+Place+%40+HTCC+Honors+Conference;Founding+Engineer+%40+PCC+AI;Building+in+public+%E2%9C%A8" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=15&duration=3000&pause=1500&color=A78BFA&vCenter=true&width=350&lines=Forbes-Featured+Engineer;1st+Place+%40+HTCC+Honors+Conference;Founding+Engineer+%40+PCC+AI;Building+in+public+%E2%9C%A8" alt="Typing SVG" />
 </a>
 
 <br/>
 
-[![Email](https://img.shields.io/badge/Email-mshirmoh@usc.edu-000?style=flat&logo=gmail&logoColor=white)](mailto:mshirmoh@usc.edu)&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-mohossy-000?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/mohossy)&nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-mohosy-000?style=flat&logo=github&logoColor=white)](https://github.com/mohosy)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mshirmoh@usc.edu)&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mohossy)&nbsp;
+[![Portfolio](https://img.shields.io/badge/Portfolio-8B5CF6?style=for-the-badge&logo=safari&logoColor=white)](https://github.com/mohosy)
 
 <br clear="right"/>
-
----
 
 ---
 
