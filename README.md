@@ -1,6 +1,6 @@
 <img align="right" src="presentationpic.png" width="280" />
 
-# Hey, I'm Mo 👋
+### Hey, I'm Mo 👋
 
 **CS @ USC Viterbi** · B.S./M.S. · 3.92 GPA
 
