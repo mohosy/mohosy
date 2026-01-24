@@ -6,7 +6,7 @@
 <table>
 <tr>
 <td align="center" width="200">
-<img src="https://github.com/mohosy/mohosy/blob/main/profilepic2.png?raw=true" width="150" height="150" style="border-radius:50%" alt="Mo Shirmohammadi"/>
+<img src="https://github.com/mohosy/mohosy/blob/main/profile-circular.png?raw=true" width="150" height="150" alt="Mo Shirmohammadi"/>
 <br/>
 <img src="https://img.shields.io/badge/USC_Viterbi-990000?style=flat-square" />
 <img src="https://img.shields.io/badge/3.92_GPA-4285F4?style=flat-square" />
@@ -121,7 +121,7 @@ From security systems to web platforms — constantly shipping production code.
 <!-- FROM SCRATCH -->
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" alt="Tools" width="28" /> From-Scratch Implementations
 
-*I don't just use tools — I build them. These projects implement core CS concepts from the ground up.*
+*Core CS concepts, implemented from scratch.*
 
 <div align="center">
 <table>
