@@ -1,18 +1,27 @@
-<p align="center">
-  <img src="presentationpic.png" width="500" />
-</p>
+<table>
+<tr>
+<td width="280">
+<img src="presentationpic.png" width="260" />
+</td>
+<td>
 
-<p align="center">
-  <a href="https://readme-typing-svg.demolab.com/demo/">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6E85F7&center=true&vCenter=true&width=500&lines=Forbes-Featured+Engineer+%40+19;Building+systems+that+scale;30K%2B+users+served;USC+CS+%7C+3.92+GPA" alt="Typing SVG" />
-  </a>
-</p>
+### Mo Shirmohammadi
 
-<p align="center">
-  <a href="mailto:mshirmoh@usc.edu"><img src="https://img.shields.io/badge/Email-mshirmoh%40usc.edu-red?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/mohossy"><img src="https://img.shields.io/badge/LinkedIn-mohossy-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://github.com/mohosy"><img src="https://img.shields.io/badge/GitHub-mohosy-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
-</p>
+**B.S./M.S. Computer Science @ USC Viterbi** · 3.92 GPA
+
+<a href="https://readme-typing-svg.demolab.com/demo/">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=16&duration=3000&pause=1000&color=58A6FF&vCenter=true&width=380&lines=Forbes-Featured+Engineer+%40+19;Shipped+AI+chatbot+serving+30K%2B+users;1st+Place+%40+HTCC+Honors+Conference;Building+systems+that+scale" alt="Typing SVG" />
+</a>
+
+<br/>
+
+[![Email](https://img.shields.io/badge/mshirmoh@usc.edu-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:mshirmoh@usc.edu)
+[![LinkedIn](https://img.shields.io/badge/mohossy-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/mohossy)
+[![GitHub](https://img.shields.io/badge/mohosy-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/mohosy)
+
+</td>
+</tr>
+</table>
 
 ---
 
