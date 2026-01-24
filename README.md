@@ -264,19 +264,14 @@ From security systems to web platforms — constantly shipping production code.
 
 <br/>
 
-### Let's Connect
-
-<a href="mailto:mshirmoh@usc.edu"><img src="https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://linkedin.com/in/mohossy"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-
-<br/><br/>
-
-**Open to Software Engineering opportunities** — let's build something that matters.
+**Open to SWE roles** · <a href="mailto:mshirmoh@usc.edu">mshirmoh@usc.edu</a> · <a href="https://linkedin.com/in/mohossy">LinkedIn</a>
 
 <br/>
 
-👀 <img src="https://komarev.com/ghpvc/?username=mohosy&color=58a6ff&style=flat-square&label=Profile+Views&base=4856" />
+<sub>👀 <img src="https://komarev.com/ghpvc/?username=mohosy&color=58a6ff&style=flat-square&label=views&base=4856" /></sub>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19&height=120&section=footer" width="100%" />
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19&height=100&section=footer" width="100%" />
