@@ -1,6 +1,10 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19&height=180&section=header&text=Mo%20Shirmohammadi&fontSize=42&fontAlignY=35&desc=Forbes-Featured%20Engineer%20%7C%20USC%20CS&descAlignY=55&descSize=18&animation=fadeIn" width="100%" />
 
 <p align="center">
+  <img src="profilepic2.png" width="180" style="border-radius: 50%;" alt="Mo Shirmohammadi" />
+</p>
+
+<p align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6E95F7&center=true&vCenter=true&random=false&width=600&lines=Building+systems+that+scale+to+30K%2B+users;From-scratch+implementations+of+core+CS;Forbes-featured+%40+19+years+old;Open+to+SWE+opportunities" alt="Typing SVG" /></a>
 </p>
 
