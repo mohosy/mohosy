@@ -199,6 +199,45 @@ client.on('notification', async (msg) => {
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔍 [Trie Autocomplete](https://github.com/mohosy/django-trie-autocomplete-api)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+
+```python
+class TrieNode:
+    def __init__(self):
+        self.children = {}
+        self.is_end = False
+
+    def insert(self, word):
+        node = self
+        for char in word:
+            node = node.children.setdefault(char, TrieNode())
+        node.is_end = True
+```
+*How Google search suggestions work under the hood*
+
+</td>
+<td width="50%" valign="top">
+
+### 🚀 More Coming Soon...
+![Status](https://img.shields.io/badge/Status-Always_Building-8B5CF6?style=flat-square)
+
+```text
+┌─────────────────────────────┐
+│  Next up:                   │
+│  → HTTP server from scratch │
+│  → Git internals            │
+│  → Compiler frontend        │
+└─────────────────────────────┘
+```
+*The learning never stops*
+
+</td>
+</tr>
 </table>
 
 ---
