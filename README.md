@@ -152,10 +152,6 @@ System Design   ██████████████████░░░�
 ## 🏆 Achievements
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=mohosy&theme=tokyonight&no-frame=true&row=1&column=6" width="100%" />
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/Forbes-Featured-E4405F?style=for-the-badge&logo=forbes&logoColor=white" />
   <img src="https://img.shields.io/badge/HTCC_2024-1st_Place-FFD700?style=for-the-badge&logo=trophy&logoColor=white" />
   <img src="https://img.shields.io/badge/Presidential_Service-2x_Gold-C9B037?style=for-the-badge&logo=award&logoColor=white" />
