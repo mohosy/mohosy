@@ -29,6 +29,10 @@ I build systems that scale. At 19, I shipped an AI chatbot serving **30,000+ stu
 ![Queries](https://img.shields.io/badge/Daily_Queries-640+-06B6D4?style=flat-square)
 ![Uptime](https://img.shields.io/badge/Uptime-99.9%25-10B981?style=flat-square)
 
+- RAG pipeline: 900+ docs indexed, sub-100ms retrieval
+- Improved accuracy 38% → 66%, reduced hallucinations 40%
+- Built agentic mode with Browserbase + Playwright
+
 `Node.js` `Express` `MongoDB` `GPT-4` `RAG` `Sentry`
 
 </td>
@@ -37,9 +41,44 @@ I build systems that scale. At 19, I shipped an AI chatbot serving **30,000+ stu
 **IRL Social App** — *Founder & Lead Engineer*
 
 ![Beta](https://img.shields.io/badge/Beta_Testers-470+-8B5CF6?style=flat-square)
-![Type](https://img.shields.io/badge/Type-Real--time_Video-06B6D4?style=flat-square)
+![Pipeline](https://img.shields.io/badge/Upload_Latency-<200ms-06B6D4?style=flat-square)
+![Volume](https://img.shields.io/badge/Weekly_Clips-1,000+-10B981?style=flat-square)
+
+- Real-time video social network with 6-second posts
+- FFmpeg transcoding + AWS S3 presigned URLs
+- Iterated on 35% week-1 retention data
 
 `React Native` `Node.js` `FFmpeg` `Socket.io` `AWS`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**AI Patrol Drone** — *1st Place @ HTCC 2024*
+
+![Award](https://img.shields.io/badge/HTCC-1st_Place-FFD700?style=flat-square)
+![Type](https://img.shields.io/badge/Computer_Vision-Wildlife_Detection-06B6D4?style=flat-square)
+
+- CV-based system to identify predatory wildlife
+- Protects outdoor pets via real-time detection
+- Won against 50+ competing projects
+
+`Python` `OpenCV` `TensorFlow` `Raspberry Pi`
+
+</td>
+<td width="50%">
+
+**Code Can Bridge** — *Founder, 501(c)(3) Nonprofit*
+
+![Status](https://img.shields.io/badge/Status-501(c)(3)-8B5CF6?style=flat-square)
+![Impact](https://img.shields.io/badge/Teaching-Students_with_Disabilities-10B981?style=flat-square)
+
+- Founded nonprofit teaching coding to students with learning disabilities
+- Program at Arcadia High School
+- Making CS education accessible
+
+`Python` `Scratch` `Curriculum Design`
 
 </td>
 </tr>
