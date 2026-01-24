@@ -275,7 +275,7 @@ From security systems to web platforms — constantly shipping production code.
 
 <br/>
 
-👀 <img src="https://komarev.com/ghpvc/?username=mohosy&color=58a6ff&style=flat-square&label=Profile+Views" />
+👀 <img src="https://komarev.com/ghpvc/?username=mohosy&color=58a6ff&style=flat-square&label=Profile+Views&base=4856" />
 
 </div>
 
