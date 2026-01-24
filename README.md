@@ -17,8 +17,6 @@ I build systems that scale. At 19, I shipped an AI chatbot serving **30,000+ stu
 
 <br clear="right"/>
 
----
-
 ## 🚀 Production Systems
 
 <table>
@@ -101,26 +99,51 @@ I build systems that scale. At 19, I shipped an AI chatbot serving **30,000+ stu
 
 ---
 
+## 🏆 Achievements
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=mohosy&theme=tokyonight&no-frame=true&row=1&column=6" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Forbes-Featured-E4405F?style=for-the-badge&logo=forbes&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTCC_2024-1st_Place-FFD700?style=for-the-badge&logo=trophy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Presidential_Service-2x_Gold-C9B037?style=for-the-badge&logo=award&logoColor=white" />
+</p>
+
+---
+
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mohosy&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=mohosy&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="180" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mohosy&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="180" />
+</p>
+
+<p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohosy&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="165" />
 </p>
 
 ---
 
-## Recognition
+## 🎯 Currently
 
-- **Featured in Forbes Magazine**
-- **1st Place** — HTCC Honors Conference 2024
-- **2x Gold Presidential Service Award**
-- Featured in POCI Magazine & PCC Courier
+<p align="center">
+  <img src="https://img.shields.io/badge/Building-IRL_Social_App-8B5CF6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Learning-Distributed_Systems-06B6D4?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Reading-Designing_Data--Intensive_Apps-10B981?style=for-the-badge" />
+</p>
 
 ---
 
 <p align="center">
-  <b>Open to SWE opportunities</b> — let's build something that matters.
+  <img src="https://komarev.com/ghpvc/?username=mohosy&style=for-the-badge&color=8B5CF6" alt="Profile Views" />
+</p>
+
+<p align="center">
+  <b>Open to SWE opportunities at top tech companies</b>
+  <br/>
+  <i>Let's build something that matters.</i>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19&height=100&section=footer" width="100%" />
