@@ -1,5 +1,11 @@
 <p align="center">
-  <img src="presentationpic.png" width="600" height="180" style="object-fit: cover;" />
+  <img src="presentationpic.png" width="500" />
+</p>
+
+<p align="center">
+  <a href="https://readme-typing-svg.demolab.com/demo/">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6E85F7&center=true&vCenter=true&width=500&lines=Forbes-Featured+Engineer+%40+19;Building+systems+that+scale;30K%2B+users+served;USC+CS+%7C+3.92+GPA" alt="Typing SVG" />
+  </a>
 </p>
 
 <p align="center">
