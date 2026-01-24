@@ -88,32 +88,25 @@ I build systems that scale. At 19, I shipped an AI chatbot serving **30,000+ stu
 
 ## 🔧 From-Scratch Implementations
 
-*I like knowing how things actually work — so I build them from the ground up.*
+> *"I like knowing how things actually work — so I build them from the ground up."*
 
-<p align="center">
-  <a href="https://github.com/mohosy/dns-resolver-from-scratch">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=dns-resolver-from-scratch&theme=tokyonight&hide_border=true" />
-  </a>
-  <a href="https://github.com/mohosy/b-tree-index-from-scratch">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=b-tree-index-from-scratch&theme=tokyonight&hide_border=true" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/mohosy/myers-diff-engine">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=myers-diff-engine&theme=tokyonight&hide_border=true" />
-  </a>
-  <a href="https://github.com/mohosy/regexium">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=regexium&theme=tokyonight&hide_border=true" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/mohosy/memory-allocator-simulator">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=memory-allocator-simulator&theme=tokyonight&hide_border=true" />
-  </a>
-  <a href="https://github.com/mohosy/postgres-backed-pubsub-queue">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=postgres-backed-pubsub-queue&theme=tokyonight&hide_border=true" />
-  </a>
-</p>
+```bash
+$ ls ~/deep-dives/
+```
+
+| Project | What Powers It | What I Learned |
+|:--------|:---------------|:---------------|
+| 🌐 [**dns-resolver**](https://github.com/mohosy/dns-resolver-from-scratch) | UDP sockets, packet parsing | How the internet actually resolves names |
+| 🌳 [**b-tree-index**](https://github.com/mohosy/b-tree-index-from-scratch) | Balanced tree, disk I/O | Why databases are fast at lookups |
+| 📝 [**myers-diff**](https://github.com/mohosy/myers-diff-engine) | Graph algorithms, LCS | The algorithm behind `git diff` |
+| 🔤 [**regexium**](https://github.com/mohosy/regexium) | Thompson's NFA, automata | How regex engines match patterns |
+| 🧠 [**malloc**](https://github.com/mohosy/memory-allocator-simulator) | Free lists, coalescing | How C manages memory under the hood |
+| 📨 [**pubsub-queue**](https://github.com/mohosy/postgres-backed-pubsub-queue) | PostgreSQL LISTEN/NOTIFY | Building reliable message queues |
+
+```bash
+$ cat ~/philosophy.txt
+> "If you can't build it from scratch, you don't truly understand it."
+```
 
 ---
 
