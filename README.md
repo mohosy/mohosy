@@ -259,15 +259,6 @@ From security systems to web platforms — constantly shipping production code.
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0d1117&height=3&section=header&reversal=false" width="100%" />
 
-<!-- TROPHIES -->
-## 🏆 GitHub Trophies
-
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=mohosy&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" width="100%" />
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0d1117&height=3&section=header&reversal=false" width="100%" />
-
 <!-- FOOTER -->
 <div align="center">
 
