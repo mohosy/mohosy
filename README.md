@@ -244,7 +244,16 @@ From security systems to web platforms — constantly shipping production code.
 </tr>
 </table>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mohosy&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff" width="100%" />
+<table>
+<tr>
+<td width="50%">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mohosy&theme=tokyonight&utcOffset=-8" width="100%" />
+</td>
+<td width="50%">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mohosy&theme=tokyonight" width="100%" />
+</td>
+</tr>
+</table>
 
 </div>
 
