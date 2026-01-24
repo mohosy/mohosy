@@ -123,18 +123,29 @@ I build systems that scale. At 19, I shipped an AI chatbot serving **30,000+ stu
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=mohosy&theme=tokyo-night&hide_border=true&area=true" width="100%" />
 </p>
 
-**Languages & Tools**
+### Skills & Proficiency
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+```text
+Python          ████████████████████░░░░░   80%
+TypeScript      ███████████████████░░░░░░   75%
+JavaScript      ███████████████████░░░░░░   75%
+C++             ██████████████░░░░░░░░░░░   55%
+React/RN        ██████████████████░░░░░░░   70%
+Node.js         ████████████████████░░░░░   80%
+```
+
+```text
+MongoDB         ███████████████████░░░░░░   75%
+PostgreSQL      ██████████████████░░░░░░░   70%
+AWS             ██████████████░░░░░░░░░░░   55%
+Docker          ██████████████░░░░░░░░░░░   55%
+RAG/LLMs        ████████████████████░░░░░   80%
+System Design   ██████████████████░░░░░░░   70%
+```
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,typescript,cpp,react,nodejs,express,mongodb,postgres,aws,docker,git,linux&theme=dark&perline=6" />
+</p>
 
 ---
 
