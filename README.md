@@ -163,6 +163,12 @@ I build systems that scale. At 19, I shipped an AI chatbot serving **30,000+ stu
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohosy&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="165" />
 </p>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohosy/mohosy/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohosy/mohosy/output/github-snake.svg" />
+  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/mohosy/mohosy/output/github-snake.svg" width="100%" />
+</picture>
+
 ---
 
 ## 🎯 Currently
