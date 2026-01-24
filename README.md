@@ -251,29 +251,31 @@ From security systems to web platforms — constantly shipping production code.
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0d1117&height=3&section=header&reversal=false" width="100%" />
 
 <!-- TROPHIES -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Trophy.png" alt="Trophy" width="28" /> GitHub Trophies
+## 🏆 GitHub Trophies
 
 <div align="center">
 <img src="https://github-profile-trophy.vercel.app/?username=mohosy&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" width="100%" />
 </div>
 
-<br/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0d1117&height=3&section=header&reversal=false" width="100%" />
 
 <!-- FOOTER -->
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=mohosy&color=58a6ff&style=for-the-badge&label=PROFILE+VIEWS" />
+<br/>
+
+### Let's Connect
+
+<a href="mailto:mshirmoh@usc.edu"><img src="https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://linkedin.com/in/mohossy"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 <br/><br/>
 
-**Open to Software Engineering opportunities**
-
-*Let's build something that matters.*
+**Open to Software Engineering opportunities** — let's build something that matters.
 
 <br/>
 
-<a href="mailto:mshirmoh@usc.edu"><img src="https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://linkedin.com/in/mohossy"><img src="https://img.shields.io/badge/Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+👀 <img src="https://komarev.com/ghpvc/?username=mohosy&color=58a6ff&style=flat-square&label=Profile+Views" />
 
 </div>
 
