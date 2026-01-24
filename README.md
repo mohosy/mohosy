@@ -34,7 +34,7 @@ B.S./M.S. Computer Science @ USC Viterbi
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0d1117&height=3&section=header&reversal=false" width="100%" />
 
 <!-- RECOGNITION BANNER -->
 <div align="center">
@@ -68,10 +68,10 @@ I care about systems that work under pressure — whether that's RAG pipelines h
 
 <br clear="right"/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0d1117&height=3&section=header&reversal=false" width="100%" />
 
 <!-- PRODUCTION SYSTEMS -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" alt="Rocket" width="28" /> Production Systems
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="28" /> Production Systems
 
 <table>
 <tr>
@@ -118,7 +118,7 @@ From security systems to web platforms — constantly shipping production code.
 </tr>
 </table>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0d1117&height=3&section=header&reversal=false" width="100%" />
 
 <!-- FROM SCRATCH -->
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" alt="Tools" width="28" /> From-Scratch Implementations
@@ -188,7 +188,7 @@ From security systems to web platforms — constantly shipping production code.
 </table>
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0d1117&height=3&section=header&reversal=false" width="100%" />
 
 <!-- TECH STACK -->
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="28" /> Tech Stack
@@ -229,7 +229,7 @@ From security systems to web platforms — constantly shipping production code.
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0d1117&height=3&section=header&reversal=false" width="100%" />
 
 <!-- GITHUB STATS -->
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" alt="Chart" width="28" /> GitHub Stats
@@ -250,7 +250,7 @@ From security systems to web platforms — constantly shipping production code.
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0d1117&height=3&section=header&reversal=false" width="100%" />
 
 <!-- TROPHIES -->
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Trophy.png" alt="Trophy" width="28" /> GitHub Trophies
