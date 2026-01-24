@@ -1,6 +1,10 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19&height=180&section=header&text=Mo%20Shirmohammadi&fontSize=42&fontAlignY=35&desc=Forbes-Featured%20Engineer%20%7C%20USC%20CS&descAlignY=55&descSize=18&animation=fadeIn" width="100%" />
 
 <p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6E95F7&center=true&vCenter=true&random=false&width=600&lines=Building+systems+that+scale+to+30K%2B+users;From-scratch+implementations+of+core+CS;Forbes-featured+%40+19+years+old;Open+to+SWE+opportunities" alt="Typing SVG" /></a>
+</p>
+
+<p align="center">
   <a href="mailto:mshirmoh@usc.edu"><img src="https://img.shields.io/badge/Email-mshirmoh%40usc.edu-red?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://linkedin.com/in/mohossy"><img src="https://img.shields.io/badge/LinkedIn-mohossy-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://github.com/mohosy"><img src="https://img.shields.io/badge/GitHub-mohosy-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
@@ -15,6 +19,14 @@
 At 19, I shipped a **generative AI chatbot serving 30,000+ students** as the founding engineer at my college. I've been **featured in Forbes** for my work, won **1st place at the HTCC Honors Conference** for building an AI-powered drone, and I'm currently building a consumer social app with **470+ beta testers**.
 
 I care about systems that work under pressure — whether that's RAG pipelines handling 640+ daily queries or real-time video feeds processing thousands of 6-second clips.
+
+---
+
+## GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=mohosy&theme=tokyonight&no-frame=true&no-bg=true&column=7" alt="GitHub Trophies" />
+</p>
 
 ---
 
@@ -44,53 +56,52 @@ I care about systems that work under pressure — whether that's RAG pipelines h
 
 ## Tech Stack
 
-**Languages**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-FA7343?style=flat-square&logo=swift&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,typescript,javascript,cpp,swift,react,nodejs,express,django,spring,mongodb,postgres,firebase,aws,docker,git&perline=8" />
+  </a>
+</p>
 
-**Frameworks & Runtime**
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-
-**Data & Infrastructure**
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-**AI/ML**
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-`RAG Pipelines` `Vector Embeddings` `Semantic Search` `Agentic Workflows`
+<p align="center">
+  <b>AI/ML:</b> OpenAI API • LangChain • RAG Pipelines • Vector Embeddings • Semantic Search • Agentic Workflows
+</p>
 
 ---
 
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mohosy&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohosy&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=mohosy&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=00000000" alt="GitHub Stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohosy&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&bg_color=00000000" alt="Top Languages" height="165" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mohosy&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub Streak" />
+</p>
+
+---
+
+## Activity Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mohosy&theme=tokyo-night&hide_border=true&bg_color=00000000" alt="Activity Graph" />
 </p>
 
 ---
 
 ## Recognition
 
-- **Featured in Forbes Magazine**
-- **1st Place** — HTCC Honors Conference 2024
-- **2x Gold Presidential Service Award**
-- Featured in POCI Magazine & PCC Courier
+<p align="center">
+  <img src="https://img.shields.io/badge/Forbes-Featured-red?style=for-the-badge&logo=forbes&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTCC_2024-1st_Place-gold?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Presidential_Service-2x_Gold-blue?style=for-the-badge" />
+</p>
 
 ---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=mohosy&color=6E95F7&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
+</p>
 
 <p align="center">
   <b>Open to SWE opportunities</b> — let's build something that matters.
