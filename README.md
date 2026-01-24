@@ -30,7 +30,7 @@ B.S./M.S. Computer Science @ USC Viterbi
 
 <br/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=700&lines=%E2%9C%A8+Forbes-featured+%40+19+years+old;%F0%9F%9A%80+Shipped+AI+chatbot+serving+30%2C000%2B+students;%F0%9F%8F%86+1st+Place+%40+HTCC+Honors+Conference;%F0%9F%92%BB+Open+to+SWE+opportunities" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=700&lines=%E2%9C%A8+Forbes-featured+%40+17+years+old;%F0%9F%9A%80+Shipped+AI+chatbot+serving+30%2C000%2B+students;%F0%9F%8F%86+1st+Place+%40+HTCC+Honors+Conference;%F0%9F%92%BB+Open+to+SWE+opportunities" alt="Typing SVG" /></a>
 
 </div>
 
@@ -60,9 +60,7 @@ B.S./M.S. Computer Science @ USC Viterbi
 
 <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohosy&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" width="320" />
 
-At **19 years old**, I shipped a **generative AI chatbot serving 30,000+ students** as the founding engineer at my college.
-
-I've been **featured in Forbes** for my work, won **1st place at the HTCC Honors Conference** for building an AI-powered drone that uses computer vision to detect predatory wildlife and protect pets, and I'm currently building a consumer social app with **470+ beta testers**.
+**Featured in Forbes at 17.** Since then, I've shipped a **generative AI chatbot serving 30,000+ students** as the founding engineer at my college, won **1st place at the HTCC Honors Conference** for building an AI-powered drone, and I'm currently building a consumer social app with **470+ beta testers**.
 
 I care about systems that work under pressure — whether that's RAG pipelines handling **640+ daily queries** at **99.9% uptime**, or real-time video feeds processing thousands of 6-second clips.
 
