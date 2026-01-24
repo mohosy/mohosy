@@ -88,25 +88,118 @@ I build systems that scale. At 19, I shipped an AI chatbot serving **30,000+ stu
 
 ## 🔧 From-Scratch Implementations
 
-> *"I like knowing how things actually work — so I build them from the ground up."*
+<p align="center">
+  <img src="https://img.shields.io/badge/Philosophy-If_you_can't_build_it,_you_don't_understand_it-8B5CF6?style=for-the-badge" />
+</p>
 
-```bash
-$ ls ~/deep-dives/
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🌐 [DNS Resolver](https://github.com/mohosy/dns-resolver-from-scratch)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Networking](https://img.shields.io/badge/UDP_Sockets-06B6D4?style=flat-square)
+
+```python
+def resolve(domain):
+    query = build_dns_query(domain)
+    sock.sendto(query, ("8.8.8.8", 53))
+    response = parse_dns_response(sock.recv(512))
+    return response.answers[0].ip
 ```
+*How the internet actually finds websites*
 
-| Project | What Powers It | What I Learned |
-|:--------|:---------------|:---------------|
-| 🌐 [**dns-resolver**](https://github.com/mohosy/dns-resolver-from-scratch) | UDP sockets, packet parsing | How the internet actually resolves names |
-| 🌳 [**b-tree-index**](https://github.com/mohosy/b-tree-index-from-scratch) | Balanced tree, disk I/O | Why databases are fast at lookups |
-| 📝 [**myers-diff**](https://github.com/mohosy/myers-diff-engine) | Graph algorithms, LCS | The algorithm behind `git diff` |
-| 🔤 [**regexium**](https://github.com/mohosy/regexium) | Thompson's NFA, automata | How regex engines match patterns |
-| 🧠 [**malloc**](https://github.com/mohosy/memory-allocator-simulator) | Free lists, coalescing | How C manages memory under the hood |
-| 📨 [**pubsub-queue**](https://github.com/mohosy/postgres-backed-pubsub-queue) | PostgreSQL LISTEN/NOTIFY | Building reliable message queues |
+</td>
+<td width="50%" valign="top">
 
-```bash
-$ cat ~/philosophy.txt
-> "If you can't build it from scratch, you don't truly understand it."
+### 🌳 [B-Tree Index](https://github.com/mohosy/b-tree-index-from-scratch)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![Database](https://img.shields.io/badge/Data_Structures-10B981?style=flat-square)
+
+```typescript
+class BTreeNode<K, V> {
+  keys: K[] = [];
+  children: BTreeNode<K, V>[] = [];
+
+  search(key: K): V | null {
+    // O(log n) balanced tree traversal
+  }
+}
 ```
+*Why databases can search billions of rows instantly*
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📝 [Myers Diff](https://github.com/mohosy/myers-diff-engine)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![Algorithms](https://img.shields.io/badge/Graph_Theory-FFD700?style=flat-square)
+
+```typescript
+function shortestEdit(a: string[], b: string[]) {
+  // Find shortest edit script via
+  // graph traversal on edit grid
+  // The algorithm powering `git diff`
+}
+```
+*The exact algorithm behind `git diff`*
+
+</td>
+<td width="50%" valign="top">
+
+### 🔤 [Regex Engine](https://github.com/mohosy/regexium)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Theory](https://img.shields.io/badge/Automata_Theory-E4405F?style=flat-square)
+
+```python
+class NFA:
+    def thompson_construct(self, regex):
+        # Convert regex → NFA using
+        # Thompson's construction
+        # Then simulate NFA for matching
+```
+*How regex engines match patterns in O(n)*
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🧠 [Memory Allocator](https://github.com/mohosy/memory-allocator-simulator)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Systems](https://img.shields.io/badge/Systems-8B5CF6?style=flat-square)
+
+```cpp
+void* my_malloc(size_t size) {
+    Block* block = find_free_block(size);
+    if (!block) block = request_space(size);
+    split_block(block, size);
+    return block->data;
+}
+```
+*How `malloc()` and `free()` actually work*
+
+</td>
+<td width="50%" valign="top">
+
+### 📨 [PubSub Queue](https://github.com/mohosy/postgres-backed-pubsub-queue)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![Database](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+
+```typescript
+// LISTEN/NOTIFY for real-time events
+await client.query('LISTEN new_job');
+client.on('notification', async (msg) => {
+  await processJob(msg.payload);
+});
+```
+*Building Kafka-like queues with just Postgres*
+
+</td>
+</tr>
+</table>
 
 ---
 
