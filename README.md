@@ -21,8 +21,8 @@ Building systems that scale to 30K+ users | From-scratch implementations of core
 
 B.S./M.S. Computer Science @ USC Viterbi
 
-<a href="mailto:mshirmoh@usc.edu"><img src="https://img.shields.io/badge/mshirmoh@usc.edu-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
-<a href="https://linkedin.com/in/mohossy"><img src="https://img.shields.io/badge/mohossy-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
+<a href="mailto:mshirmoh@usc.edu"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://linkedin.com/in/mohossy"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 </td>
 </tr>
