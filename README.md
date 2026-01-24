@@ -1,37 +1,24 @@
-<table>
-<tr>
-<td width="280">
-<img src="presentationpic.png" width="260" />
-</td>
-<td>
+<img align="right" src="presentationpic.png" width="280" />
 
-### Mo Shirmohammadi
+# Hey, I'm Mo 👋
 
-**B.S./M.S. Computer Science @ USC Viterbi** · 3.92 GPA
+**CS @ USC Viterbi** · B.S./M.S. · 3.92 GPA
+
+I build systems that scale. At 19, I shipped an AI chatbot serving **30,000+ students** and got **featured in Forbes**. Currently building a social app with **470+ beta testers**.
 
 <a href="https://readme-typing-svg.demolab.com/demo/">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=16&duration=3000&pause=1000&color=58A6FF&vCenter=true&width=380&lines=Forbes-Featured+Engineer+%40+19;Shipped+AI+chatbot+serving+30K%2B+users;1st+Place+%40+HTCC+Honors+Conference;Building+systems+that+scale" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=14&duration=3000&pause=1500&color=8B949E&vCenter=true&width=350&lines=Forbes-Featured+Engineer;1st+Place+%40+HTCC+Honors+Conference;Founding+Engineer+%40+PCC+AI;Building+in+public+%E2%9C%A8" alt="Typing SVG" />
 </a>
 
 <br/>
 
-[![Email](https://img.shields.io/badge/mshirmoh@usc.edu-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:mshirmoh@usc.edu)
-[![LinkedIn](https://img.shields.io/badge/mohossy-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/mohossy)
-[![GitHub](https://img.shields.io/badge/mohosy-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/mohosy)
+[![Email](https://img.shields.io/badge/Email-mshirmoh@usc.edu-000?style=flat&logo=gmail&logoColor=white)](mailto:mshirmoh@usc.edu)&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-mohossy-000?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/mohossy)&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-mohosy-000?style=flat&logo=github&logoColor=white)](https://github.com/mohosy)
 
-</td>
-</tr>
-</table>
+<br clear="right"/>
 
 ---
-
-## About Me
-
-**B.S./M.S. Computer Science @ USC Viterbi** (3.92 GPA) — I build things that scale.
-
-At 19, I shipped a **generative AI chatbot serving 30,000+ students** as the founding engineer at my college. I've been **featured in Forbes** for my work, won **1st place at the HTCC Honors Conference** for building an AI-powered drone, and I'm currently building a consumer social app with **470+ beta testers**.
-
-I care about systems that work under pressure — whether that's RAG pipelines handling 640+ daily queries or real-time video feeds processing thousands of 6-second clips.
 
 ---
 
