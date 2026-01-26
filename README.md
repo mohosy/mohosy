@@ -73,7 +73,7 @@ Nonprofit teaching coding to students with learning disabilities at Arcadia High
 ## From Scratch
 
 <p align="center">
-<img src="https://img.shields.io/badge/16_systems_built_from_scratch-zero_dependencies-58A6FF?style=for-the-badge" />
+<img src="https://img.shields.io/badge/17_systems_built_from_scratch-zero_dependencies-58A6FF?style=for-the-badge" />
 </p>
 
 <p align="center">
@@ -81,7 +81,7 @@ Nonprofit teaching coding to students with learning disabilities at Arcadia High
 <a href="https://github.com/mohosy/search-engine-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=search-engine-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
 </p>
 <p align="center">
-<a href="https://github.com/mohosy/realtime-exchange-engine"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=realtime-exchange-engine&theme=tokyonight&hide_border=true" width="49%" /></a>
+<a href="https://github.com/mohosy/sql-database-engine"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=sql-database-engine&theme=tokyonight&hide_border=true" width="49%" /></a>
 <a href="https://github.com/mohosy/kv-store-engine"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=kv-store-engine&theme=tokyonight&hide_border=true" width="49%" /></a>
 </p>
 <p align="center">
@@ -90,7 +90,7 @@ Nonprofit teaching coding to students with learning disabilities at Arcadia High
 </p>
 
 <details>
-<summary><b>All 16 from-scratch implementations →</b></summary>
+<summary><b>All 17 from-scratch implementations →</b></summary>
 <br/>
 
 <p align="center">
@@ -112,6 +112,9 @@ Nonprofit teaching coding to students with learning disabilities at Arcadia High
 <p align="center">
 <a href="https://github.com/mohosy/flowguard"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=flowguard&theme=tokyonight&hide_border=true" width="49%" /></a>
 <a href="https://github.com/mohosy/algoscape"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=algoscape&theme=tokyonight&hide_border=true" width="49%" /></a>
+</p>
+<p align="center">
+<a href="https://github.com/mohosy/realtime-exchange-engine"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=realtime-exchange-engine&theme=tokyonight&hide_border=true" width="49%" /></a>
 </p>
 
 </details>
