@@ -85,8 +85,8 @@ Nonprofit teaching coding to students with learning disabilities at Arcadia High
 <a href="https://github.com/mohosy/kv-store-engine"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=kv-store-engine&theme=tokyonight&hide_border=true" width="49%" /></a>
 </p>
 <p align="center">
-<a href="https://github.com/mohosy/regexium"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=regexium&theme=tokyonight&hide_border=true" width="49%" /></a>
-<a href="https://github.com/mohosy/dns-resolver-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=dns-resolver-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
+<a href="https://github.com/mohosy/cpu-scheduling-visualizer"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=cpu-scheduling-visualizer&theme=tokyonight&hide_border=true" width="49%" /></a>
+<a href="https://github.com/mohosy/b-tree-index-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=b-tree-index-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
 </p>
 
 <details>
@@ -94,8 +94,8 @@ Nonprofit teaching coding to students with learning disabilities at Arcadia High
 <br/>
 
 <p align="center">
-<a href="https://github.com/mohosy/cpu-scheduling-visualizer"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=cpu-scheduling-visualizer&theme=tokyonight&hide_border=true" width="49%" /></a>
-<a href="https://github.com/mohosy/b-tree-index-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=b-tree-index-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
+<a href="https://github.com/mohosy/regexium"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=regexium&theme=tokyonight&hide_border=true" width="49%" /></a>
+<a href="https://github.com/mohosy/dns-resolver-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=dns-resolver-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
 </p>
 <p align="center">
 <a href="https://github.com/mohosy/memory-allocator-simulator"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=memory-allocator-simulator&theme=tokyonight&hide_border=true" width="49%" /></a>
