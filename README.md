@@ -76,125 +76,43 @@ Nonprofit teaching coding to students with learning disabilities at Arcadia High
 <img src="https://img.shields.io/badge/16_systems_built_from_scratch-zero_dependencies-58A6FF?style=for-the-badge" />
 </p>
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**[Bytecode VM Compiler](https://github.com/mohosy/bytecode-vm-compiler)** · TypeScript
-
-Full language pipeline — lexer, recursive descent parser, single-pass bytecode compiler, and stack-based VM with functions and closures.
-
-```typescript
-compile(ast: Program): Chunk {
-  for (const stmt of ast.body)
-    this.compileStatement(stmt);
-  this.emit(Op.HALT);
-  return this.chunk;
-}
-```
-
-</td>
-<td width="50%" valign="top">
-
-**[Search Engine](https://github.com/mohosy/search-engine-from-scratch)** · Python
-
-Inverted index with posting lists, BM25 ranking, boolean queries (AND/OR/NOT), Porter stemmer, and built-in web search UI.
-
-```python
-idf = log((N - df + 0.5) / (df + 0.5) + 1)
-tf_norm = (tf * (k1 + 1)) / (
-    tf + k1 * (1 - b + b * dl / avgdl))
-score = idf * tf_norm  # BM25
-```
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[Exchange Engine](https://github.com/mohosy/realtime-exchange-engine)** · Python
-
-Stock exchange with limit order book, price-time priority matching (NYSE/NASDAQ algorithm), and live terminal dashboard.
-
-```python
-while order.remaining > 0:
-    best = self.best_ask if buy else self.best_bid
-    if not best or not price_crosses: break
-    self.execute_trade(order, best)
-```
-
-</td>
-<td width="50%" valign="top">
-
-**[KV Store Engine](https://github.com/mohosy/kv-store-engine)** · Java / Spring Boot
-
-Custom open-addressing hash table with FNV-1a hashing, TTL expiration, snapshot persistence, and REST API.
-
-```java
-int idx = hash(key) & (capacity - 1);
-while (table[idx] != null) {
-    if (table[idx].key.equals(key))
-        return table[idx].value; // O(1)
-    idx = (idx + 1) & (capacity - 1);
-}
-```
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[Regex Engine](https://github.com/mohosy/regexium)** · Python
-
-NFA-based pattern matching via Thompson's construction. Converts regex to NFA and simulates for guaranteed O(n) matching.
-
-```python
-def thompson_construct(self, regex):
-    # Regex → NFA via Thompson's
-    # construction algorithm
-    # Guarantees O(n) matching time
-```
-
-</td>
-<td width="50%" valign="top">
-
-**[DNS Resolver](https://github.com/mohosy/dns-resolver-from-scratch)** · Python
-
-Iterative DNS resolution from root servers using raw UDP sockets. Parses the binary DNS wire format.
-
-```python
-query = build_dns_query(domain)
-sock.sendto(query, ("8.8.8.8", 53))
-resp = parse_dns_response(sock.recv(512))
-return resp.answers[0].ip
-```
-
-</td>
-</tr>
-</table>
+<p align="center">
+<a href="https://github.com/mohosy/bytecode-vm-compiler"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=bytecode-vm-compiler&theme=tokyonight&hide_border=true" width="49%" /></a>
+<a href="https://github.com/mohosy/search-engine-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=search-engine-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
+</p>
+<p align="center">
+<a href="https://github.com/mohosy/realtime-exchange-engine"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=realtime-exchange-engine&theme=tokyonight&hide_border=true" width="49%" /></a>
+<a href="https://github.com/mohosy/kv-store-engine"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=kv-store-engine&theme=tokyonight&hide_border=true" width="49%" /></a>
+</p>
+<p align="center">
+<a href="https://github.com/mohosy/regexium"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=regexium&theme=tokyonight&hide_border=true" width="49%" /></a>
+<a href="https://github.com/mohosy/dns-resolver-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=dns-resolver-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
+</p>
 
 <details>
-<summary><b>All 16 implementations →</b></summary>
+<summary><b>All 16 from-scratch implementations →</b></summary>
 <br/>
 
-| Project | Tech | What it demonstrates |
-|:--------|:-----|:---------------------|
-| [Bytecode VM Compiler](https://github.com/mohosy/bytecode-vm-compiler) | TypeScript | Lexer, parser, compiler, stack-based virtual machine |
-| [Search Engine](https://github.com/mohosy/search-engine-from-scratch) | Python | Inverted index, BM25 ranking, boolean query evaluation |
-| [Exchange Engine](https://github.com/mohosy/realtime-exchange-engine) | Python | Limit order book, price-time priority matching |
-| [KV Store Engine](https://github.com/mohosy/kv-store-engine) | Java / Spring Boot | Custom hash table, TTL expiration, snapshot persistence |
-| [CPU Scheduler](https://github.com/mohosy/cpu-scheduling-visualizer) | React / TypeScript | FCFS, SJF, Round Robin with interactive Gantt chart |
-| [Regex Engine](https://github.com/mohosy/regexium) | Python | Thompson's NFA construction, O(n) matching |
-| [DNS Resolver](https://github.com/mohosy/dns-resolver-from-scratch) | Python | Iterative resolution, UDP sockets, binary protocol |
-| [B-Tree Index](https://github.com/mohosy/b-tree-index-from-scratch) | TypeScript | Disk-optimized search tree, O(log n) operations |
-| [Myers Diff](https://github.com/mohosy/myers-diff-from-scratch) | TypeScript | Shortest edit script via edit graph traversal |
-| [Memory Allocator](https://github.com/mohosy/memory-allocator-simulator) | C++ | First-fit / best-fit placement, coalescing |
-| [PubSub Queue](https://github.com/mohosy/postgres-backed-pubsub-queue) | TS / PostgreSQL | Durable message queue with consumer groups |
-| [Trie Autocomplete](https://github.com/mohosy/django-trie-autocomplete-api) | Python / Django | Weighted prefix search with REST API |
-| [JSON Parser](https://github.com/mohosy/json-recursive-descent-parser) | TypeScript | Tokenizer + recursive descent parser |
-| [LRU Cache](https://github.com/mohosy/swift-lru-cache-from-scratch) | Swift | O(1) doubly-linked list + hash map |
-| [Rate Limiter](https://github.com/mohosy/flowguard) | Python | Token bucket + sliding window algorithms |
-| [Algorithm Visualizer](https://github.com/mohosy/algoscape) | JavaScript | QuickSort, MergeSort, A*, Dijkstra, BFS/DFS |
+<p align="center">
+<a href="https://github.com/mohosy/cpu-scheduling-visualizer"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=cpu-scheduling-visualizer&theme=tokyonight&hide_border=true" width="49%" /></a>
+<a href="https://github.com/mohosy/b-tree-index-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=b-tree-index-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
+</p>
+<p align="center">
+<a href="https://github.com/mohosy/memory-allocator-simulator"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=memory-allocator-simulator&theme=tokyonight&hide_border=true" width="49%" /></a>
+<a href="https://github.com/mohosy/postgres-backed-pubsub-queue"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=postgres-backed-pubsub-queue&theme=tokyonight&hide_border=true" width="49%" /></a>
+</p>
+<p align="center">
+<a href="https://github.com/mohosy/myers-diff-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=myers-diff-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
+<a href="https://github.com/mohosy/django-trie-autocomplete-api"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=django-trie-autocomplete-api&theme=tokyonight&hide_border=true" width="49%" /></a>
+</p>
+<p align="center">
+<a href="https://github.com/mohosy/json-recursive-descent-parser"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=json-recursive-descent-parser&theme=tokyonight&hide_border=true" width="49%" /></a>
+<a href="https://github.com/mohosy/swift-lru-cache-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=swift-lru-cache-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
+</p>
+<p align="center">
+<a href="https://github.com/mohosy/flowguard"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=flowguard&theme=tokyonight&hide_border=true" width="49%" /></a>
+<a href="https://github.com/mohosy/algoscape"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=algoscape&theme=tokyonight&hide_border=true" width="49%" /></a>
+</p>
 
 </details>
 
