@@ -73,7 +73,7 @@ Nonprofit teaching coding to students with learning disabilities at Arcadia High
 ## From Scratch
 
 <p align="center">
-<img src="https://img.shields.io/badge/17_systems_built_from_scratch-zero_dependencies-58A6FF?style=for-the-badge" />
+<img src="https://img.shields.io/badge/18_systems_built_from_scratch-zero_dependencies-58A6FF?style=for-the-badge" />
 </p>
 
 <p align="center">
@@ -86,11 +86,11 @@ Nonprofit teaching coding to students with learning disabilities at Arcadia High
 </p>
 <p align="center">
 <a href="https://github.com/mohosy/cpu-scheduling-visualizer"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=cpu-scheduling-visualizer&theme=tokyonight&hide_border=true" width="49%" /></a>
-<a href="https://github.com/mohosy/b-tree-index-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=b-tree-index-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
+<a href="https://github.com/mohosy/http-server-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=http-server-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
 </p>
 
 <details>
-<summary><b>All 17 from-scratch implementations →</b></summary>
+<summary><b>All 18 from-scratch implementations →</b></summary>
 <br/>
 
 <p align="center">
@@ -115,6 +115,7 @@ Nonprofit teaching coding to students with learning disabilities at Arcadia High
 </p>
 <p align="center">
 <a href="https://github.com/mohosy/realtime-exchange-engine"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=realtime-exchange-engine&theme=tokyonight&hide_border=true" width="49%" /></a>
+<a href="https://github.com/mohosy/b-tree-index-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=b-tree-index-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
 </p>
 
 </details>
