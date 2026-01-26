@@ -17,68 +17,52 @@ I build systems that scale. At 19, I shipped an AI chatbot serving **30,000+ stu
 
 <br clear="right"/>
 
-## 🚀 Production Systems
+---
+
+## Production
 
 <table>
 <tr>
 <td width="50%">
 
-**PCC AI Chatbot** — *Founding Engineer*
+**PCC AI Chatbot** · *Founding Engineer*
 
-![Users](https://img.shields.io/badge/Users-30,000+-8B5CF6?style=flat-square)
-![Queries](https://img.shields.io/badge/Daily_Queries-640+-06B6D4?style=flat-square)
-![Uptime](https://img.shields.io/badge/Uptime-99.9%25-10B981?style=flat-square)
+**30,000+ users** · 640 daily queries · 99.9% uptime
 
-- RAG pipeline: 900+ docs indexed, sub-100ms retrieval
-- Improved accuracy 38% → 66%, reduced hallucinations 40%
-- Built agentic mode with Browserbase + Playwright
+RAG pipeline indexing 900+ documents with sub-100ms retrieval. Improved response accuracy from 38% to 66% and reduced hallucinations by 40%.
 
-`Node.js` `Express` `MongoDB` `GPT-4` `RAG` `Sentry`
+<sub>Node.js · Express · MongoDB · GPT-4 · RAG · Sentry</sub>
 
 </td>
 <td width="50%">
 
-**IRL Social App** — *Founder & Lead Engineer*
+**IRL Social App** · *Founder & Lead Engineer*
 
-![Beta](https://img.shields.io/badge/Beta_Testers-470+-8B5CF6?style=flat-square)
-![Pipeline](https://img.shields.io/badge/Upload_Latency-<200ms-06B6D4?style=flat-square)
-![Volume](https://img.shields.io/badge/Weekly_Clips-1,000+-10B981?style=flat-square)
+**470+ beta testers** · 1,000+ weekly clips
 
-- Real-time video social network with 6-second posts
-- FFmpeg transcoding + AWS S3 presigned URLs
-- Iterated on 35% week-1 retention data
+Real-time video social network with 6-second posts. FFmpeg transcoding pipeline with AWS S3 presigned URLs. Iterated on 35% week-1 retention.
 
-`React Native` `Node.js` `FFmpeg` `Socket.io` `AWS`
+<sub>React Native · Node.js · FFmpeg · Socket.io · AWS</sub>
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-**AI Patrol Drone** — *1st Place @ HTCC 2024*
+**AI Patrol Drone** · *1st Place, HTCC 2024*
 
-![Award](https://img.shields.io/badge/HTCC-1st_Place-FFD700?style=flat-square)
-![Type](https://img.shields.io/badge/Computer_Vision-Wildlife_Detection-06B6D4?style=flat-square)
+Computer vision system for predatory wildlife detection to protect outdoor pets. Won against 50+ competing projects.
 
-- CV-based system to identify predatory wildlife
-- Protects outdoor pets via real-time detection
-- Won against 50+ competing projects
-
-`Python` `OpenCV` `TensorFlow` `Raspberry Pi`
+<sub>Python · OpenCV · TensorFlow · Raspberry Pi</sub>
 
 </td>
 <td width="50%">
 
-**Code Can Bridge** — *Founder, 501(c)(3) Nonprofit*
+**Code Can Bridge** · *Founder, 501(c)(3)*
 
-![Status](https://img.shields.io/badge/Status-501(c)(3)-8B5CF6?style=flat-square)
-![Impact](https://img.shields.io/badge/Teaching-Students_with_Disabilities-10B981?style=flat-square)
+Nonprofit teaching coding to students with learning disabilities at Arcadia High School. Making CS education accessible.
 
-- Founded nonprofit teaching coding to students with learning disabilities
-- Program at Arcadia High School
-- Making CS education accessible
-
-`Python` `Scratch` `Curriculum Design`
+<sub>Python · Scratch · Curriculum Design</sub>
 
 </td>
 </tr>
@@ -86,167 +70,21 @@ I build systems that scale. At 19, I shipped an AI chatbot serving **30,000+ stu
 
 ---
 
-## 🔧 From-Scratch Implementations
+## From Scratch
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Philosophy-If_you_can't_build_it,_you_don't_understand_it-8B5CF6?style=for-the-badge" />
+<img src="https://img.shields.io/badge/16_systems_built_from_scratch-zero_dependencies-58A6FF?style=for-the-badge" />
 </p>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🌐 [DNS Resolver](https://github.com/mohosy/dns-resolver-from-scratch)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Networking](https://img.shields.io/badge/UDP_Sockets-06B6D4?style=flat-square)
+**[Bytecode VM Compiler](https://github.com/mohosy/bytecode-vm-compiler)** · TypeScript
 
-```python
-def resolve(domain):
-    query = build_dns_query(domain)
-    sock.sendto(query, ("8.8.8.8", 53))
-    response = parse_dns_response(sock.recv(512))
-    return response.answers[0].ip
-```
-*How the internet actually finds websites*
-
-</td>
-<td width="50%" valign="top">
-
-### 🌳 [B-Tree Index](https://github.com/mohosy/b-tree-index-from-scratch)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![Database](https://img.shields.io/badge/Data_Structures-10B981?style=flat-square)
+Full language pipeline — lexer, recursive descent parser, single-pass bytecode compiler, and stack-based VM with functions and closures.
 
 ```typescript
-class BTreeNode<K, V> {
-  keys: K[] = [];
-  children: BTreeNode<K, V>[] = [];
-
-  search(key: K): V | null {
-    // O(log n) balanced tree traversal
-  }
-}
-```
-*Why databases can search billions of rows instantly*
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 📝 [Myers Diff](https://github.com/mohosy/myers-diff-engine)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![Algorithms](https://img.shields.io/badge/Graph_Theory-FFD700?style=flat-square)
-
-```typescript
-function shortestEdit(a: string[], b: string[]) {
-  // Find shortest edit script via
-  // graph traversal on edit grid
-  // The algorithm powering `git diff`
-}
-```
-*The exact algorithm behind `git diff`*
-
-</td>
-<td width="50%" valign="top">
-
-### 🔤 [Regex Engine](https://github.com/mohosy/regexium)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Theory](https://img.shields.io/badge/Automata_Theory-E4405F?style=flat-square)
-
-```python
-class NFA:
-    def thompson_construct(self, regex):
-        # Convert regex → NFA using
-        # Thompson's construction
-        # Then simulate NFA for matching
-```
-*How regex engines match patterns in O(n)*
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🧠 [Memory Allocator](https://github.com/mohosy/memory-allocator-simulator)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Systems](https://img.shields.io/badge/Systems-8B5CF6?style=flat-square)
-
-```cpp
-void* my_malloc(size_t size) {
-    Block* block = find_free_block(size);
-    if (!block) block = request_space(size);
-    split_block(block, size);
-    return block->data;
-}
-```
-*How `malloc()` and `free()` actually work*
-
-</td>
-<td width="50%" valign="top">
-
-### 📨 [PubSub Queue](https://github.com/mohosy/postgres-backed-pubsub-queue)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![Database](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-
-```typescript
-// LISTEN/NOTIFY for real-time events
-await client.query('LISTEN new_job');
-client.on('notification', async (msg) => {
-  await processJob(msg.payload);
-});
-```
-*Building Kafka-like queues with just Postgres*
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🔍 [Trie Autocomplete](https://github.com/mohosy/django-trie-autocomplete-api)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-
-```python
-class TrieNode:
-    def __init__(self):
-        self.children = {}
-        self.is_end = False
-
-    def insert(self, word):
-        node = self
-        for char in word:
-            node = node.children.setdefault(char, TrieNode())
-        node.is_end = True
-```
-*How Google search suggestions work under the hood*
-
-</td>
-<td width="50%" valign="top">
-
-### 🔎 [Search Engine](https://github.com/mohosy/search-engine-from-scratch)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![IR](https://img.shields.io/badge/Information_Retrieval-06B6D4?style=flat-square)
-
-```python
-def bm25(term, doc):
-    idf = log((N - df + 0.5) / (df + 0.5) + 1)
-    tf_score = (tf * (k1 + 1)) / (
-        tf + k1 * (1 - b + b * dl / avgdl))
-    return idf * tf_score
-```
-*BM25 ranking — the algorithm behind Elasticsearch*
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ⚙️ [Bytecode VM Compiler](https://github.com/mohosy/bytecode-vm-compiler)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![Compilers](https://img.shields.io/badge/Compilers-E4405F?style=flat-square)
-
-```typescript
-// Lexer → Parser → AST → Bytecode → VM
 compile(ast: Program): Chunk {
   for (const stmt of ast.body)
     this.compileStatement(stmt);
@@ -254,180 +92,127 @@ compile(ast: Program): Chunk {
   return this.chunk;
 }
 ```
-*Full language: lexer, parser, compiler, stack VM*
 
 </td>
 <td width="50%" valign="top">
 
-### 📈 [Exchange Engine](https://github.com/mohosy/realtime-exchange-engine)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Finance](https://img.shields.io/badge/Order_Matching-10B981?style=flat-square)
+**[Search Engine](https://github.com/mohosy/search-engine-from-scratch)** · Python
+
+Inverted index with posting lists, BM25 ranking, boolean queries (AND/OR/NOT), Porter stemmer, and built-in web search UI.
 
 ```python
-def match(self, order: Order):
-    while order.remaining > 0:
-        best = self.best_ask if order.is_buy
-               else self.best_bid
-        if not best: break
-        self.execute_trade(order, best)
+idf = log((N - df + 0.5) / (df + 0.5) + 1)
+tf_norm = (tf * (k1 + 1)) / (
+    tf + k1 * (1 - b + b * dl / avgdl))
+score = idf * tf_norm  # BM25
 ```
-*NYSE/NASDAQ price-time priority matching*
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🗄️ [KV Store Engine](https://github.com/mohosy/kv-store-engine)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+**[Exchange Engine](https://github.com/mohosy/realtime-exchange-engine)** · Python
+
+Stock exchange with limit order book, price-time priority matching (NYSE/NASDAQ algorithm), and live terminal dashboard.
+
+```python
+while order.remaining > 0:
+    best = self.best_ask if buy else self.best_bid
+    if not best or not price_crosses: break
+    self.execute_trade(order, best)
+```
+
+</td>
+<td width="50%" valign="top">
+
+**[KV Store Engine](https://github.com/mohosy/kv-store-engine)** · Java / Spring Boot
+
+Custom open-addressing hash table with FNV-1a hashing, TTL expiration, snapshot persistence, and REST API.
 
 ```java
-public V get(K key) {
-    int idx = hash(key) & (capacity - 1);
-    while (table[idx] != null) {
-        if (table[idx].key.equals(key))
-            return table[idx].value; // O(1)
-        idx = (idx + 1) & (capacity - 1);
-    }
+int idx = hash(key) & (capacity - 1);
+while (table[idx] != null) {
+    if (table[idx].key.equals(key))
+        return table[idx].value; // O(1)
+    idx = (idx + 1) & (capacity - 1);
 }
 ```
-*Custom hash table + TTL expiration + snapshots*
-
-</td>
-<td width="50%" valign="top">
-
-### 🖥️ [CPU Scheduler](https://github.com/mohosy/cpu-scheduling-visualizer)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-
-```typescript
-function roundRobin(procs, quantum) {
-  while (ready.length > 0) {
-    const p = ready.dequeue();
-    const burst = Math.min(p.remaining, quantum);
-    execute(p, burst);
-    if (p.remaining > 0) ready.enqueue(p);
-  }
-}
-```
-*Interactive Gantt chart for FCFS, SJF, RR, Priority*
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 📋 [JSON Parser](https://github.com/mohosy/json-recursive-descent-parser)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![Parsing](https://img.shields.io/badge/Recursive_Descent-FFD700?style=flat-square)
+**[Regex Engine](https://github.com/mohosy/regexium)** · Python
 
-```typescript
-function parseValue(): JsonValue {
-  if (peek() === '{') return parseObject();
-  if (peek() === '[') return parseArray();
-  if (peek() === '"') return parseString();
-  return parseNumber();
-}
-```
-*Tokenizer + recursive descent — how V8 parses JSON*
-
-</td>
-<td width="50%" valign="top">
-
-### 🍎 [LRU Cache](https://github.com/mohosy/swift-lru-cache-from-scratch)
-![Swift](https://img.shields.io/badge/Swift-FA7343?style=flat-square&logo=swift&logoColor=white)
-![Data Structures](https://img.shields.io/badge/Linked_List+HashMap-8B5CF6?style=flat-square)
-
-```swift
-func get(_ key: Key) -> Value? {
-    guard let node = map[key] else { return nil }
-    moveToHead(node)  // O(1) via doubly-linked list
-    return node.value
-}
-```
-*O(1) get + put — the classic FAANG interview question*
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🚦 [Rate Limiter](https://github.com/mohosy/flowguard)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Systems](https://img.shields.io/badge/Distributed_Systems-06B6D4?style=flat-square)
+NFA-based pattern matching via Thompson's construction. Converts regex to NFA and simulates for guaranteed O(n) matching.
 
 ```python
-def token_bucket_allow(self):
-    now = time.time()
-    self.tokens += (now - self.last) * self.rate
-    self.tokens = min(self.tokens, self.capacity)
-    if self.tokens >= 1:
-        self.tokens -= 1
-        return True
+def thompson_construct(self, regex):
+    # Regex → NFA via Thompson's
+    # construction algorithm
+    # Guarantees O(n) matching time
 ```
-*Token bucket + sliding window — how APIs throttle traffic*
 
 </td>
 <td width="50%" valign="top">
 
-### 🎨 [Algorithm Visualizer](https://github.com/mohosy/algoscape)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Algorithms](https://img.shields.io/badge/Sorting+Pathfinding-10B981?style=flat-square)
+**[DNS Resolver](https://github.com/mohosy/dns-resolver-from-scratch)** · Python
 
-```javascript
-async function quickSort(arr, lo, hi) {
-  if (lo >= hi) return;
-  const pivot = await partition(arr, lo, hi);
-  await quickSort(arr, lo, pivot - 1);
-  await quickSort(arr, pivot + 1, hi);
-}
+Iterative DNS resolution from root servers using raw UDP sockets. Parses the binary DNS wire format.
+
+```python
+query = build_dns_query(domain)
+sock.sendto(query, ("8.8.8.8", 53))
+resp = parse_dns_response(sock.recv(512))
+return resp.answers[0].ip
 ```
-*Animated QuickSort, MergeSort, A\*, Dijkstra, BFS/DFS*
 
 </td>
 </tr>
 </table>
 
+<details>
+<summary><b>All 16 implementations →</b></summary>
+<br/>
+
+| Project | Tech | What it demonstrates |
+|:--------|:-----|:---------------------|
+| [Bytecode VM Compiler](https://github.com/mohosy/bytecode-vm-compiler) | TypeScript | Lexer, parser, compiler, stack-based virtual machine |
+| [Search Engine](https://github.com/mohosy/search-engine-from-scratch) | Python | Inverted index, BM25 ranking, boolean query evaluation |
+| [Exchange Engine](https://github.com/mohosy/realtime-exchange-engine) | Python | Limit order book, price-time priority matching |
+| [KV Store Engine](https://github.com/mohosy/kv-store-engine) | Java / Spring Boot | Custom hash table, TTL expiration, snapshot persistence |
+| [CPU Scheduler](https://github.com/mohosy/cpu-scheduling-visualizer) | React / TypeScript | FCFS, SJF, Round Robin with interactive Gantt chart |
+| [Regex Engine](https://github.com/mohosy/regexium) | Python | Thompson's NFA construction, O(n) matching |
+| [DNS Resolver](https://github.com/mohosy/dns-resolver-from-scratch) | Python | Iterative resolution, UDP sockets, binary protocol |
+| [B-Tree Index](https://github.com/mohosy/b-tree-index-from-scratch) | TypeScript | Disk-optimized search tree, O(log n) operations |
+| [Myers Diff](https://github.com/mohosy/myers-diff-from-scratch) | TypeScript | Shortest edit script via edit graph traversal |
+| [Memory Allocator](https://github.com/mohosy/memory-allocator-simulator) | C++ | First-fit / best-fit placement, coalescing |
+| [PubSub Queue](https://github.com/mohosy/postgres-backed-pubsub-queue) | TS / PostgreSQL | Durable message queue with consumer groups |
+| [Trie Autocomplete](https://github.com/mohosy/django-trie-autocomplete-api) | Python / Django | Weighted prefix search with REST API |
+| [JSON Parser](https://github.com/mohosy/json-recursive-descent-parser) | TypeScript | Tokenizer + recursive descent parser |
+| [LRU Cache](https://github.com/mohosy/swift-lru-cache-from-scratch) | Swift | O(1) doubly-linked list + hash map |
+| [Rate Limiter](https://github.com/mohosy/flowguard) | Python | Token bucket + sliding window algorithms |
+| [Algorithm Visualizer](https://github.com/mohosy/algoscape) | JavaScript | QuickSort, MergeSort, A*, Dijkstra, BFS/DFS |
+
+</details>
+
 ---
 
-## 📊 Tech Stack & Activity
+## Tech Stack
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mohosy&theme=tokyo-night&hide_border=true&area=true" width="100%" />
-</p>
-
-### Skills & Proficiency
-
-```text
-Python          ████████████████████░░░░░   80%
-TypeScript      ███████████████████░░░░░░   75%
-JavaScript      ███████████████████░░░░░░   75%
-Java            ██████████████████░░░░░░░   70%
-C++             ██████████████░░░░░░░░░░░   55%
-Swift           █████████████░░░░░░░░░░░░   50%
-React/RN        ██████████████████░░░░░░░   70%
-Node.js         ████████████████████░░░░░   80%
-```
-
-```text
-Spring Boot     ██████████████████░░░░░░░   70%
-Django          ██████████████████░░░░░░░   70%
-MongoDB         ███████████████████░░░░░░   75%
-PostgreSQL      ██████████████████░░░░░░░   70%
-AWS             ██████████████░░░░░░░░░░░   55%
-Docker          ██████████████░░░░░░░░░░░   55%
-RAG/LLMs        ████████████████████░░░░░   80%
-System Design   ██████████████████░░░░░░░   70%
-```
+**Languages** · Python · TypeScript · Java · C++ · Swift · JavaScript · SQL
+**Backend** · Node.js · Express · Django · Spring Boot
+**Frontend** · React · React Native
+**Data** · PostgreSQL · MongoDB · Redis · Firebase
+**Infrastructure** · AWS · Docker · Git · Linux
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,typescript,java,cpp,swift,react,nodejs,express,spring,django,mongodb,postgres,aws,docker,git,linux&theme=dark&perline=8" />
 </p>
 
 ---
-
-## 🏆 Achievements
 
 <p align="center">
   <img src="https://img.shields.io/badge/Forbes-Featured-E4405F?style=for-the-badge&logo=forbes&logoColor=white" />
@@ -437,31 +222,13 @@ System Design   ██████████████████░░░�
 
 ---
 
-## 📈 GitHub Stats
-
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=mohosy&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="180" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=mohosy&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="180" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohosy&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="165" />
-</p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohosy/mohosy/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohosy/mohosy/output/github-snake.svg" />
-  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/mohosy/mohosy/output/github-snake.svg" width="100%" />
-</picture>
-
----
-
-## 🎯 Currently
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Building-From--Scratch_Systems-8B5CF6?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Studying-Compilers_&_OS_Internals-06B6D4?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Reading-Designing_Data--Intensive_Apps-10B981?style=for-the-badge" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mohosy&theme=tokyo-night&hide_border=true&area=true" width="100%" />
 </p>
 
 ---
@@ -471,7 +238,7 @@ System Design   ██████████████████░░░�
 </p>
 
 <p align="center">
-  <b>Open to SWE opportunities at top tech companies</b>
+  <b>Open to SWE internship opportunities at top tech companies</b>
   <br/>
   <i>Let's build something that matters.</i>
 </p>
