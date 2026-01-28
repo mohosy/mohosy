@@ -72,38 +72,110 @@ Nonprofit teaching coding to students with learning disabilities at Arcadia High
 
 ## From Scratch
 
-<p align="center">
-<img src="https://img.shields.io/badge/24_systems_built_from_scratch-zero_dependencies-58A6FF?style=for-the-badge" />
-</p>
+*No frameworks. No libraries. Just the fundamentals — built from first principles.*
 
-<p align="center">
-<a href="https://github.com/mohosy/bytecode-vm-compiler"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=bytecode-vm-compiler&theme=tokyonight&hide_border=true" width="49%" /></a>
-<a href="https://github.com/mohosy/garbage-collector-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=garbage-collector-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
-</p>
-<p align="center">
-<a href="https://github.com/mohosy/sql-database-engine"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=sql-database-engine&theme=tokyonight&hide_border=true" width="49%" /></a>
-<a href="https://github.com/mohosy/kv-store-engine"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=kv-store-engine&theme=tokyonight&hide_border=true" width="49%" /></a>
-</p>
-<p align="center">
-<a href="https://github.com/mohosy/pedestrian-detection-cnn"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=pedestrian-detection-cnn&theme=tokyonight&hide_border=true" width="49%" /></a>
-<a href="https://github.com/mohosy/lisp-interpreter-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=lisp-interpreter-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
-</p>
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**<a href="https://github.com/mohosy/transformer-lm-from-scratch">Transformer Language Model</a>**
+<br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/NumPy_Only-013243?style=flat-square&logo=numpy&logoColor=white" /> <img src="https://img.shields.io/badge/55_tests-brightgreen?style=flat-square" />
+
+GPT-style decoder with **manual backpropagation** through every layer — multi-head attention, rotary embeddings, SwiGLU, KV-cache. LLaMA/Mistral architecture. Every gradient derived analytically.
+
+</td>
+<td width="50%" valign="top">
+
+**<a href="https://github.com/mohosy/garbage-collector-from-scratch">Garbage Collector</a>**
+<br/>
+<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" /> <img src="https://img.shields.io/badge/Zero_Dependencies-black?style=flat-square" /> <img src="https://img.shields.io/badge/43_tests-brightgreen?style=flat-square" />
+
+**Mark-and-sweep** with generational collection, object graph tracing, circular reference handling, automatic trigger thresholds. Handles 100K allocations in 7ms.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**<a href="https://github.com/mohosy/http-server-from-scratch">HTTP Server</a>**
+<br/>
+<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" /> <img src="https://img.shields.io/badge/Zero_Dependencies-black?style=flat-square" /> <img src="https://img.shields.io/badge/46_tests-brightgreen?style=flat-square" />
+
+HTTP/1.1 from **raw TCP sockets**. Thread pool, Express-style router, middleware chain, static file serving, keep-alive connections.
+
+</td>
+<td width="50%" valign="top">
+
+**<a href="https://github.com/mohosy/pedestrian-detection-cnn">CNN + Object Detection</a>**
+<br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Zero_Dependencies-black?style=flat-square" /> <img src="https://img.shields.io/badge/125_tests-brightgreen?style=flat-square" />
+
+3 CNN architectures from scratch — **Baseline**, **ResNet**, **MobileNet**. im2col convolution, BatchNorm, focal loss, sliding window detection + NMS.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**<a href="https://github.com/mohosy/lisp-interpreter-from-scratch">Lisp Interpreter</a>**
+<br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Zero_Dependencies-black?style=flat-square" /> <img src="https://img.shields.io/badge/97_tests-brightgreen?style=flat-square" />
+
+Lexer, parser, tree-walking evaluator. **Tail-call optimization** via trampoline (100K+ recursion depth), closures, macros, lexical scoping.
+
+</td>
+<td width="50%" valign="top">
+
+**<a href="https://github.com/mohosy/bytecode-vm-compiler">Bytecode Compiler + VM</a>**
+<br/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Zero_Dependencies-black?style=flat-square" /> <img src="https://img.shields.io/badge/53_tests-brightgreen?style=flat-square" />
+
+Full compiler pipeline: **lexer → parser → bytecode → stack VM**. Call frames, forward patching, constant pool. Custom "Bolt" language.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**<a href="https://github.com/mohosy/sql-database-engine">SQL Database Engine</a>**
+<br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Zero_Dependencies-black?style=flat-square" /> <img src="https://img.shields.io/badge/80_tests-brightgreen?style=flat-square" />
+
+**Recursive descent SQL parser**, query executor, B-tree column indexing, persistence, interactive REPL. Full DDL/DML + aggregates.
+
+</td>
+<td width="50%" valign="top">
+
+**<a href="https://github.com/mohosy/raytracer-from-scratch">3D Ray Tracer</a>**
+<br/>
+<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" /> <img src="https://img.shields.io/badge/Zero_Dependencies-black?style=flat-square" /> <img src="https://img.shields.io/badge/34_tests-brightgreen?style=flat-square" />
+
+Phong shading, recursive reflections, shadow rays, supersampled anti-aliasing, **multi-threaded rendering**. 800×600 in 163ms.
+
+</td>
+</tr>
+</table>
 
 <details>
-<summary><b>All 24 from-scratch implementations →</b></summary>
+<summary><b>All 24+ from-scratch implementations →</b></summary>
 <br/>
 
 <p align="center">
 <a href="https://github.com/mohosy/traffic-sign-neural-network"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=traffic-sign-neural-network&theme=tokyonight&hide_border=true" width="49%" /></a>
-<a href="https://github.com/mohosy/http-server-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=http-server-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
+<a href="https://github.com/mohosy/search-engine-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=search-engine-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
 </p>
 <p align="center">
-<a href="https://github.com/mohosy/pedestrian-detection-cnn"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=pedestrian-detection-cnn&theme=tokyonight&hide_border=true" width="49%" /></a>
-<a href="https://github.com/mohosy/lisp-interpreter-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=lisp-interpreter-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
+<a href="https://github.com/mohosy/realtime-exchange-engine"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=realtime-exchange-engine&theme=tokyonight&hide_border=true" width="49%" /></a>
+<a href="https://github.com/mohosy/swift-posix-shell"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=swift-posix-shell&theme=tokyonight&hide_border=true" width="49%" /></a>
 </p>
 <p align="center">
-<a href="https://github.com/mohosy/regexium"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=regexium&theme=tokyonight&hide_border=true" width="49%" /></a>
+<a href="https://github.com/mohosy/kv-store-engine"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=kv-store-engine&theme=tokyonight&hide_border=true" width="49%" /></a>
+<a href="https://github.com/mohosy/drone-swarm-mapf-planner"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=drone-swarm-mapf-planner&theme=tokyonight&hide_border=true" width="49%" /></a>
+</p>
+<p align="center">
 <a href="https://github.com/mohosy/dns-resolver-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=dns-resolver-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
+<a href="https://github.com/mohosy/regexium"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=regexium&theme=tokyonight&hide_border=true" width="49%" /></a>
 </p>
 <p align="center">
 <a href="https://github.com/mohosy/memory-allocator-simulator"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=memory-allocator-simulator&theme=tokyonight&hide_border=true" width="49%" /></a>
@@ -111,26 +183,19 @@ Nonprofit teaching coding to students with learning disabilities at Arcadia High
 </p>
 <p align="center">
 <a href="https://github.com/mohosy/myers-diff-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=myers-diff-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
-<a href="https://github.com/mohosy/django-trie-autocomplete-api"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=django-trie-autocomplete-api&theme=tokyonight&hide_border=true" width="49%" /></a>
-</p>
-<p align="center">
-<a href="https://github.com/mohosy/json-recursive-descent-parser"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=json-recursive-descent-parser&theme=tokyonight&hide_border=true" width="49%" /></a>
-<a href="https://github.com/mohosy/swift-lru-cache-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=swift-lru-cache-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
-</p>
-<p align="center">
-<a href="https://github.com/mohosy/flowguard"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=flowguard&theme=tokyonight&hide_border=true" width="49%" /></a>
-<a href="https://github.com/mohosy/algoscape"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=algoscape&theme=tokyonight&hide_border=true" width="49%" /></a>
-</p>
-<p align="center">
-<a href="https://github.com/mohosy/realtime-exchange-engine"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=realtime-exchange-engine&theme=tokyonight&hide_border=true" width="49%" /></a>
 <a href="https://github.com/mohosy/b-tree-index-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=b-tree-index-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
 </p>
 <p align="center">
-<a href="https://github.com/mohosy/search-engine-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=search-engine-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
-<a href="https://github.com/mohosy/cpu-scheduling-visualizer"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=cpu-scheduling-visualizer&theme=tokyonight&hide_border=true" width="49%" /></a>
+<a href="https://github.com/mohosy/django-trie-autocomplete-api"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=django-trie-autocomplete-api&theme=tokyonight&hide_border=true" width="49%" /></a>
+<a href="https://github.com/mohosy/json-recursive-descent-parser"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=json-recursive-descent-parser&theme=tokyonight&hide_border=true" width="49%" /></a>
 </p>
 <p align="center">
-<a href="https://github.com/mohosy/raytracer-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=raytracer-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
+<a href="https://github.com/mohosy/swift-lru-cache-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=swift-lru-cache-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
+<a href="https://github.com/mohosy/flowguard"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=flowguard&theme=tokyonight&hide_border=true" width="49%" /></a>
+</p>
+<p align="center">
+<a href="https://github.com/mohosy/cpu-scheduling-visualizer"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=cpu-scheduling-visualizer&theme=tokyonight&hide_border=true" width="49%" /></a>
+<a href="https://github.com/mohosy/algoscape"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=algoscape&theme=tokyonight&hide_border=true" width="49%" /></a>
 </p>
 
 </details>
