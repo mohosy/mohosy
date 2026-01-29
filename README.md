@@ -224,6 +224,55 @@ Phong shading, recursive reflections, shadow rays, supersampled anti-aliasing, *
 
 ---
 
+## Robotics & Autonomy
+
+*Simulation, V&V, and safety-critical systems for autonomous robots.*
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**<a href="https://github.com/mohosy/autonomous-nav-sim">GPS-Denied Navigation Simulator</a>**
+<br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" /> <img src="https://img.shields.io/badge/122_tests-brightgreen?style=flat-square" />
+
+Particle filter SLAM, EKF localization, A*/RRT path planning, occupancy grid mapping, sensor fault injection, degraded-mode handling, and scenario-based V&V with KPI tracking.
+
+</td>
+<td width="50%" valign="top">
+
+**<a href="https://github.com/mohosy/legged-robot-sim">Legged Robot Locomotion Simulator</a>**
+<br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" /> <img src="https://img.shields.io/badge/101_tests-brightgreen?style=flat-square" />
+
+Quadruped gait generation (walk/trot/crawl), 2-DOF FK/IK, ZMP balance control, spring-damper contact dynamics, fall detection & recovery, terrain adaptation, and safety monitoring.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**<a href="https://github.com/mohosy/robot-log-analyzer">Robot Log Analyzer & Failure Triage</a>**
+<br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" /> <img src="https://img.shields.io/badge/77_tests-brightgreen?style=flat-square" />
+
+Multi-format log parsing, anomaly detection (sensor/timing/safety), rule-based failure classification, causal graph root cause analysis, and automated triage report generation.
+
+</td>
+<td width="50%" valign="top">
+
+**<a href="https://github.com/mohosy/distributed-task-queue">Distributed Task Queue</a>**
+<br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Zero_Dependencies-black?style=flat-square" /> <img src="https://img.shields.io/badge/73_tests-brightgreen?style=flat-square" />
+
+Multi-worker task execution with priority scheduling, dependency DAGs, retry policies, dead letter queues, circuit breakers, and real-time metrics dashboarding.
+
+</td>
+</tr>
+</table>
+
+---
+
 ## Tech Stack
 
 **Languages** · Python · TypeScript · Java · C++ · Swift · JavaScript · SQL
