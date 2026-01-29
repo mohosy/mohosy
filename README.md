@@ -19,6 +19,36 @@ I build systems that scale. At 19, I shipped an AI chatbot serving **30,000+ stu
 
 ---
 
+## Featured Project
+
+<table>
+<tr>
+<td>
+
+### <a href="https://github.com/mohosy/irl-official">IRL</a> — Real-Time Social Video Platform
+
+<img src="https://img.shields.io/badge/470+-beta_testers-58A6FF?style=flat-square" /> <img src="https://img.shields.io/badge/1,000+-weekly_clips-A78BFA?style=flat-square" /> <img src="https://img.shields.io/badge/35%25-week--1_retention-22C55E?style=flat-square" />
+
+Full-stack mobile app where friends hang out through video messages, live presence, and real-time games — built from the ground up as a solo engineer.
+
+**Presence Avatars** — Bitmoji-style animated characters that mirror each user's real-time position, emoji, and activity state across screens via WebRTC data channels (~50ms sync). Supports 9 choreographed dances, speech bubbles, push-to-talk mic indicators, and an 8-state presence machine (recording, watching, typing, etc.).
+
+**Lobby Mode** — Synchronized virtual hangout where both users' avatars exist in a shared 3D animated scene. Features ready-up invite flow with countdown, staggered entrance animations, voice activity indicators, and an emote action bar.
+
+**Battle Royale** — Real-time 1v1 multiplayer game with projectile physics, distance-based damage, knockback mechanics, progressive storm zones, health bar systems, and screen shake + haptic feedback on impact — all state-synced over Agora data stream and Socket.io.
+
+**Video Pipeline** — Ephemeral Snapchat-style video/photo DMs with Vision Camera capture, FFmpeg transcoding, S3 multipart uploads, CloudFront CDN delivery, view-once consumption tracking, screenshot detection, replay limits, and auto-expiry via MongoDB TTL indexes.
+
+**Real-Time Architecture** — Hybrid WebSocket layer combining Agora WebRTC (voice, data streaming) with Socket.io (15+ event types, per-message compression, connection state recovery). In-memory caching with 30-60s TTL, rate limiting, and 44 MongoDB collections with compound indexes.
+
+<sub>React Native · TypeScript · Node.js · Express · MongoDB · Socket.io · Agora WebRTC · FFmpeg · AWS S3 · CloudFront · Firebase · Redux Toolkit · Reanimated</sub>
+
+</td>
+</tr>
+</table>
+
+---
+
 ## Production
 
 <table>
@@ -36,19 +66,6 @@ RAG pipeline indexing 900+ documents with sub-100ms retrieval. Improved response
 </td>
 <td width="50%">
 
-**IRL Social App** · *Founder & Lead Engineer*
-
-**470+ beta testers** · 1,000+ weekly clips
-
-Real-time video social network with 6-second posts. FFmpeg transcoding pipeline with AWS S3 presigned URLs. Iterated on 35% week-1 retention.
-
-<sub>React Native · Node.js · FFmpeg · Socket.io · AWS</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
 **AI Patrol Drone** · *1st Place, HTCC 2024*
 
 Computer vision system for predatory wildlife detection to protect outdoor pets. Won against 50+ competing projects.
@@ -56,6 +73,8 @@ Computer vision system for predatory wildlife detection to protect outdoor pets.
 <sub>Python · OpenCV · TensorFlow · Raspberry Pi</sub>
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 **Code Can Bridge** · *Founder, 501(c)(3)*
@@ -63,6 +82,9 @@ Computer vision system for predatory wildlife detection to protect outdoor pets.
 Nonprofit teaching coding to students with learning disabilities at Arcadia High School. Making CS education accessible.
 
 <sub>Python · Scratch · Curriculum Design</sub>
+
+</td>
+<td width="50%">
 
 </td>
 </tr>
