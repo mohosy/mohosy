@@ -1,3 +1,5 @@
+<img src="https://komarev.com/ghpvc/?username=mohosy&style=flat-square&color=8B5CF6" alt="Profile Views" />
+
 <img align="right" src="presentationpic.png" width="280" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=32&duration=1000&pause=10000&color=58A6FF&vCenter=true&repeat=false&width=300&height=45&lines=Hey%2C+I'm+Mo+%F0%9F%91%8B" alt="Hey, I'm Mo" />
@@ -19,36 +21,6 @@ I build systems that scale. At 19, I shipped an AI chatbot serving **30,000+ stu
 
 ---
 
-## Featured Project
-
-<table>
-<tr>
-<td>
-
-### <a href="https://github.com/mohosy/irl-official">IRL</a> — Real-Time Social Video Platform
-
-<img src="https://img.shields.io/badge/470+-beta_testers-58A6FF?style=flat-square" /> <img src="https://img.shields.io/badge/1,000+-weekly_clips-A78BFA?style=flat-square" /> <img src="https://img.shields.io/badge/35%25-week--1_retention-22C55E?style=flat-square" />
-
-Full-stack mobile app where friends hang out through video messages, live presence, and real-time games — built from the ground up as a solo engineer.
-
-**Presence Avatars** — Bitmoji-style animated characters that mirror each user's real-time position, emoji, and activity state across screens via WebRTC data channels (~50ms sync). Supports 9 choreographed dances, speech bubbles, push-to-talk mic indicators, and an 8-state presence machine (recording, watching, typing, etc.).
-
-**Lobby Mode** — Synchronized virtual hangout where both users' avatars exist in a shared 3D animated scene. Features ready-up invite flow with countdown, staggered entrance animations, voice activity indicators, and an emote action bar.
-
-**Battle Royale** — Real-time 1v1 multiplayer game with projectile physics, distance-based damage, knockback mechanics, progressive storm zones, health bar systems, and screen shake + haptic feedback on impact — all state-synced over Agora data stream and Socket.io.
-
-**Video Pipeline** — Ephemeral Snapchat-style video/photo DMs with Vision Camera capture, FFmpeg transcoding, S3 multipart uploads, CloudFront CDN delivery, view-once consumption tracking, screenshot detection, replay limits, and auto-expiry via MongoDB TTL indexes.
-
-**Real-Time Architecture** — Hybrid WebSocket layer combining Agora WebRTC (voice, data streaming) with Socket.io (15+ event types, per-message compression, connection state recovery). In-memory caching with 30-60s TTL, rate limiting, and 44 MongoDB collections with compound indexes.
-
-<sub>React Native · TypeScript · Node.js · Express · MongoDB · Socket.io · Agora WebRTC · FFmpeg · AWS S3 · CloudFront · Firebase · Redux Toolkit · Reanimated</sub>
-
-</td>
-</tr>
-</table>
-
----
-
 ## Production
 
 <table>
@@ -57,34 +29,60 @@ Full-stack mobile app where friends hang out through video messages, live presen
 
 **PCC AI Chatbot** · *Founding Engineer*
 
-**30,000+ users** · 640 daily queries · 99.9% uptime
+![Users](https://img.shields.io/badge/Users-30,000+-8B5CF6?style=flat-square)
+![Queries](https://img.shields.io/badge/Daily_Queries-640+-06B6D4?style=flat-square)
+![Uptime](https://img.shields.io/badge/Uptime-99.9%25-10B981?style=flat-square)
 
-RAG pipeline indexing 900+ documents with sub-100ms retrieval. Improved response accuracy from 38% to 66% and reduced hallucinations by 40%.
+- RAG pipeline: 900+ docs indexed, sub-100ms retrieval
+- Improved accuracy 38% → 66%, reduced hallucinations 40%
+- Built agentic mode with Browserbase + Playwright
 
-<sub>Node.js · Express · MongoDB · GPT-4 · RAG · Sentry</sub>
+`Node.js` `Express` `MongoDB` `GPT-4` `RAG` `Sentry`
 
 </td>
 <td width="50%">
 
-**AI Patrol Drone** · *1st Place, HTCC 2024*
+**IRL Social App** · *Founder & Solo Engineer*
 
-Computer vision system for predatory wildlife detection to protect outdoor pets. Won against 50+ competing projects.
+![Beta](https://img.shields.io/badge/Beta_Testers-470+-8B5CF6?style=flat-square)
+![Volume](https://img.shields.io/badge/Weekly_Clips-1,000+-06B6D4?style=flat-square)
+![Retention](https://img.shields.io/badge/Week--1_Retention-35%25-10B981?style=flat-square)
 
-<sub>Python · OpenCV · TensorFlow · Raspberry Pi</sub>
+- Real-time video social network with live presence and multiplayer games
+- Hybrid WebSocket layer: Agora WebRTC + Socket.io (15+ event types)
+- FFmpeg transcoding, S3 multipart uploads, CloudFront CDN delivery
+
+`React Native` `TypeScript` `Node.js` `Socket.io` `Agora` `AWS`
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-**Code Can Bridge** · *Founder, 501(c)(3)*
+**AI Patrol Drone** · *1st Place @ HTCC 2024*
 
-Nonprofit teaching coding to students with learning disabilities at Arcadia High School. Making CS education accessible.
+![Award](https://img.shields.io/badge/HTCC-1st_Place-FFD700?style=flat-square)
+![Type](https://img.shields.io/badge/Computer_Vision-Wildlife_Detection-06B6D4?style=flat-square)
 
-<sub>Python · Scratch · Curriculum Design</sub>
+- CV-based system to identify predatory wildlife and protect outdoor pets
+- Real-time detection on embedded hardware
+- Won against 50+ competing projects
+
+`Python` `OpenCV` `TensorFlow` `Raspberry Pi`
 
 </td>
 <td width="50%">
+
+**[Container Runtime](https://github.com/mohosy/container-runtime-from-scratch)** · *Docker from First Principles*
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Zero Deps](https://img.shields.io/badge/Zero_Dependencies-black?style=flat-square)
+
+- PID, mount, network, and UTS namespace isolation
+- cgroups: memory limits with OOM kill, CPU shares, process caps
+- Union filesystem with copy-on-write layers and Dockerfile parser
+
+`Python` `Namespaces` `cgroups` `Union FS` `OCI`
 
 </td>
 </tr>
@@ -92,193 +90,106 @@ Nonprofit teaching coding to students with learning disabilities at Arcadia High
 
 ---
 
-## From Scratch
+## Systems Engineering
 
-*No frameworks. No libraries. Just the fundamentals — built from first principles.*
+*No frameworks. No libraries. Built from first principles.*
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**<a href="https://github.com/mohosy/transformer-lm-from-scratch">Transformer Language Model</a>**
+**[Transformer Language Model](https://github.com/mohosy/transformer-lm-from-scratch)**
 <br/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/NumPy_Only-013243?style=flat-square&logo=numpy&logoColor=white" /> <img src="https://img.shields.io/badge/55_tests-brightgreen?style=flat-square" />
 
-GPT-style decoder with **manual backpropagation** through every layer — multi-head attention, rotary embeddings, SwiGLU, KV-cache. LLaMA/Mistral architecture. Every gradient derived analytically.
+GPT-style decoder with manual backpropagation through every layer — multi-head attention, rotary embeddings, SwiGLU, KV-cache. LLaMA/Mistral architecture. Every gradient derived analytically.
 
 </td>
 <td width="50%" valign="top">
 
-**<a href="https://github.com/mohosy/garbage-collector-from-scratch">Garbage Collector</a>**
-<br/>
-<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" /> <img src="https://img.shields.io/badge/Zero_Dependencies-black?style=flat-square" /> <img src="https://img.shields.io/badge/43_tests-brightgreen?style=flat-square" />
-
-**Mark-and-sweep** with generational collection, object graph tracing, circular reference handling, automatic trigger thresholds. Handles 100K allocations in 7ms.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**<a href="https://github.com/mohosy/http-server-from-scratch">HTTP Server</a>**
+**[HTTP Server](https://github.com/mohosy/http-server-from-scratch)**
 <br/>
 <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" /> <img src="https://img.shields.io/badge/Zero_Dependencies-black?style=flat-square" /> <img src="https://img.shields.io/badge/46_tests-brightgreen?style=flat-square" />
 
-HTTP/1.1 from **raw TCP sockets**. Thread pool, Express-style router, middleware chain, static file serving, keep-alive connections.
-
-</td>
-<td width="50%" valign="top">
-
-**<a href="https://github.com/mohosy/pedestrian-detection-cnn">CNN + Object Detection</a>**
-<br/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Zero_Dependencies-black?style=flat-square" /> <img src="https://img.shields.io/badge/125_tests-brightgreen?style=flat-square" />
-
-3 CNN architectures from scratch — **Baseline**, **ResNet**, **MobileNet**. im2col convolution, BatchNorm, focal loss, sliding window detection + NMS.
+HTTP/1.1 from raw TCP sockets. Thread pool, Express-style router, middleware chain, static file serving, keep-alive connections.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**<a href="https://github.com/mohosy/lisp-interpreter-from-scratch">Lisp Interpreter</a>**
-<br/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Zero_Dependencies-black?style=flat-square" /> <img src="https://img.shields.io/badge/97_tests-brightgreen?style=flat-square" />
-
-Lexer, parser, tree-walking evaluator. **Tail-call optimization** via trampoline (100K+ recursion depth), closures, macros, lexical scoping.
-
-</td>
-<td width="50%" valign="top">
-
-**<a href="https://github.com/mohosy/bytecode-vm-compiler">Bytecode Compiler + VM</a>**
-<br/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Zero_Dependencies-black?style=flat-square" /> <img src="https://img.shields.io/badge/53_tests-brightgreen?style=flat-square" />
-
-Full compiler pipeline: **lexer → parser → bytecode → stack VM**. Call frames, forward patching, constant pool. Custom "Bolt" language.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**<a href="https://github.com/mohosy/sql-database-engine">SQL Database Engine</a>**
+**[SQL Database Engine](https://github.com/mohosy/sql-database-engine)**
 <br/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Zero_Dependencies-black?style=flat-square" /> <img src="https://img.shields.io/badge/80_tests-brightgreen?style=flat-square" />
 
-**Recursive descent SQL parser**, query executor, B-tree column indexing, persistence, interactive REPL. Full DDL/DML + aggregates.
+Recursive descent SQL parser, query executor, B-tree column indexing, persistence, interactive REPL. Full DDL/DML with aggregates.
 
 </td>
 <td width="50%" valign="top">
 
-**<a href="https://github.com/mohosy/raytracer-from-scratch">3D Ray Tracer</a>**
+**[Garbage Collector](https://github.com/mohosy/garbage-collector-from-scratch)**
 <br/>
-<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" /> <img src="https://img.shields.io/badge/Zero_Dependencies-black?style=flat-square" /> <img src="https://img.shields.io/badge/34_tests-brightgreen?style=flat-square" />
+<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" /> <img src="https://img.shields.io/badge/Zero_Dependencies-black?style=flat-square" /> <img src="https://img.shields.io/badge/43_tests-brightgreen?style=flat-square" />
 
-Phong shading, recursive reflections, shadow rays, supersampled anti-aliasing, **multi-threaded rendering**. 800×600 in 163ms.
+Mark-and-sweep with generational collection, object graph tracing, circular reference handling. Handles 100K allocations in 7ms.
 
 </td>
 </tr>
 </table>
 
 <details>
-<summary><b>All 24+ from-scratch implementations →</b></summary>
+<summary><b>All 30+ from-scratch implementations →</b></summary>
 <br/>
 
-<p align="center">
-<a href="https://github.com/mohosy/traffic-sign-neural-network"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=traffic-sign-neural-network&theme=tokyonight&hide_border=true" width="49%" /></a>
-<a href="https://github.com/mohosy/search-engine-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=search-engine-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
-</p>
-<p align="center">
-<a href="https://github.com/mohosy/realtime-exchange-engine"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=realtime-exchange-engine&theme=tokyonight&hide_border=true" width="49%" /></a>
-<a href="https://github.com/mohosy/swift-posix-shell"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=swift-posix-shell&theme=tokyonight&hide_border=true" width="49%" /></a>
-</p>
-<p align="center">
-<a href="https://github.com/mohosy/kv-store-engine"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=kv-store-engine&theme=tokyonight&hide_border=true" width="49%" /></a>
-<a href="https://github.com/mohosy/drone-swarm-mapf-planner"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=drone-swarm-mapf-planner&theme=tokyonight&hide_border=true" width="49%" /></a>
-</p>
-<p align="center">
-<a href="https://github.com/mohosy/dns-resolver-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=dns-resolver-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
-<a href="https://github.com/mohosy/regexium"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=regexium&theme=tokyonight&hide_border=true" width="49%" /></a>
-</p>
-<p align="center">
-<a href="https://github.com/mohosy/memory-allocator-simulator"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=memory-allocator-simulator&theme=tokyonight&hide_border=true" width="49%" /></a>
-<a href="https://github.com/mohosy/postgres-backed-pubsub-queue"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=postgres-backed-pubsub-queue&theme=tokyonight&hide_border=true" width="49%" /></a>
-</p>
-<p align="center">
-<a href="https://github.com/mohosy/myers-diff-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=myers-diff-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
-<a href="https://github.com/mohosy/b-tree-index-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=b-tree-index-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
-</p>
-<p align="center">
-<a href="https://github.com/mohosy/django-trie-autocomplete-api"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=django-trie-autocomplete-api&theme=tokyonight&hide_border=true" width="49%" /></a>
-<a href="https://github.com/mohosy/json-recursive-descent-parser"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=json-recursive-descent-parser&theme=tokyonight&hide_border=true" width="49%" /></a>
-</p>
-<p align="center">
-<a href="https://github.com/mohosy/swift-lru-cache-from-scratch"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=swift-lru-cache-from-scratch&theme=tokyonight&hide_border=true" width="49%" /></a>
-<a href="https://github.com/mohosy/flowguard"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=flowguard&theme=tokyonight&hide_border=true" width="49%" /></a>
-</p>
-<p align="center">
-<a href="https://github.com/mohosy/cpu-scheduling-visualizer"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=cpu-scheduling-visualizer&theme=tokyonight&hide_border=true" width="49%" /></a>
-<a href="https://github.com/mohosy/algoscape"><img src="https://github-readme-stats.vercel.app/api/pin/?username=mohosy&repo=algoscape&theme=tokyonight&hide_border=true" width="49%" /></a>
-</p>
+| Project | Lang | What It Demonstrates |
+|---------|------|---------------------|
+| [Database Replication Engine](https://github.com/mohosy/database-replication-engine) | TypeScript | WAL, leader-follower replication, automatic failover, split-brain healing |
+| [Raft Consensus](https://github.com/mohosy/raft-consensus-simulator) | TypeScript | Leader election, log replication, fault injection, network partitions |
+| [LSM-Tree Storage Engine](https://github.com/mohosy/lsm-tree-storage-engine) | TypeScript | WAL, memtables, SSTables, Bloom filters, compaction |
+| [CNN + Object Detection](https://github.com/mohosy/pedestrian-detection-cnn) | Python | ResNet, MobileNet from scratch, im2col convolution, focal loss, NMS |
+| [Lisp Interpreter](https://github.com/mohosy/lisp-interpreter-from-scratch) | Python | Lexer, parser, tree-walking eval, tail-call optimization, macros |
+| [Bytecode Compiler + VM](https://github.com/mohosy/bytecode-vm-compiler) | TypeScript | Full pipeline: lexer → parser → bytecode → stack VM. Custom "Bolt" language |
+| [3D Ray Tracer](https://github.com/mohosy/raytracer-from-scratch) | C++ | Phong shading, reflections, shadow rays, multi-threaded rendering |
+| [Search Engine](https://github.com/mohosy/search-engine-from-scratch) | Python | Inverted index, BM25 ranking, full-text search |
+| [Exchange Engine](https://github.com/mohosy/realtime-exchange-engine) | Python | Limit order book, NYSE-style price-time priority matching |
+| [Load Balancer](https://github.com/mohosy/load-balancer-from-scratch) | Java | Request distribution, health checks, connection management |
+| [WebSocket Server](https://github.com/mohosy/websocket-server-from-scratch) | C++ | WebSocket protocol from raw TCP |
+| [GraphQL Engine](https://github.com/mohosy/graphql-engine-from-scratch) | Python | Query parsing, schema resolution, execution |
+| [Build System](https://github.com/mohosy/build-system-from-scratch) | TypeScript | Dependency graph, incremental builds |
+| [Network Protocol Stack](https://github.com/mohosy/network-protocol-stack-from-scratch) | Python | TCP/IP stack implementation |
+| [Virtual Filesystem](https://github.com/mohosy/virtual-filesystem-from-scratch) | Python | VFS with inodes, directory tree, permissions |
+| [Video Codec](https://github.com/mohosy/video-codec-from-scratch) | Python | Video encoding/decoding from scratch |
+| [Huffman Compression](https://github.com/mohosy/huffman-compression-engine) | C++ | Entropy coding, file compression |
+| [POSIX Shell](https://github.com/mohosy/swift-posix-shell) | Swift | Shell interpreter with pipes, redirects, builtins |
+| [DNS Resolver](https://github.com/mohosy/dns-resolver-from-scratch) | Python | Iterative resolution from root servers via raw UDP |
+| [Regex Engine](https://github.com/mohosy/regexium) | Python | Thompson's NFA construction, O(n) matching |
+| [Memory Allocator](https://github.com/mohosy/memory-allocator-simulator) | C++ | First-fit, best-fit, worst-fit placement strategies |
+| [Distributed Task Queue](https://github.com/mohosy/distributed-task-queue) | Python | Priority scheduling, dependency DAGs, circuit breakers |
+| [Drone Swarm Planner](https://github.com/mohosy/drone-swarm-mapf-planner) | Python | Multi-agent pathfinding for drone coordination |
+| [Myers Diff](https://github.com/mohosy/myers-diff-from-scratch) | TypeScript | The algorithm behind `git diff` |
+| [B-Tree Index](https://github.com/mohosy/b-tree-index-from-scratch) | TypeScript | The data structure behind database indexes |
+| [KV Store](https://github.com/mohosy/kv-store-engine) | Java | Hash table, TTL expiration, snapshot persistence |
+| [PubSub Queue](https://github.com/mohosy/postgres-backed-pubsub-queue) | TypeScript | Durable messaging on PostgreSQL LISTEN/NOTIFY |
+| [JSON Parser](https://github.com/mohosy/json-recursive-descent-parser) | TypeScript | Recursive descent parsing, zero dependencies |
+| [Rate Limiter](https://github.com/mohosy/flowguard) | Python | Token bucket and sliding window implementations |
+| [LRU Cache](https://github.com/mohosy/swift-lru-cache-from-scratch) | Swift | O(1) cache with doubly-linked list + hash map |
+| [Trie Autocomplete API](https://github.com/mohosy/django-trie-autocomplete-api) | Python | Weighted prefix search in O(k) time |
+| [Traffic Sign CNN](https://github.com/mohosy/traffic-sign-neural-network) | Python | Neural network for traffic sign classification |
 
 </details>
-
----
-
-## Robotics & Autonomy
-
-*Simulation, V&V, and safety-critical systems for autonomous robots.*
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**<a href="https://github.com/mohosy/autonomous-nav-sim">GPS-Denied Navigation Simulator</a>**
-<br/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" /> <img src="https://img.shields.io/badge/122_tests-brightgreen?style=flat-square" />
-
-Particle filter SLAM, EKF localization, A*/RRT path planning, occupancy grid mapping, sensor fault injection, degraded-mode handling, and scenario-based V&V with KPI tracking.
-
-</td>
-<td width="50%" valign="top">
-
-**<a href="https://github.com/mohosy/legged-robot-sim">Legged Robot Locomotion Simulator</a>**
-<br/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" /> <img src="https://img.shields.io/badge/101_tests-brightgreen?style=flat-square" />
-
-Quadruped gait generation (walk/trot/crawl), 2-DOF FK/IK, ZMP balance control, spring-damper contact dynamics, fall detection & recovery, terrain adaptation, and safety monitoring.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**<a href="https://github.com/mohosy/robot-log-analyzer">Robot Log Analyzer & Failure Triage</a>**
-<br/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" /> <img src="https://img.shields.io/badge/77_tests-brightgreen?style=flat-square" />
-
-Multi-format log parsing, anomaly detection (sensor/timing/safety), rule-based failure classification, causal graph root cause analysis, and automated triage report generation.
-
-</td>
-<td width="50%" valign="top">
-
-**<a href="https://github.com/mohosy/distributed-task-queue">Distributed Task Queue</a>**
-<br/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Zero_Dependencies-black?style=flat-square" /> <img src="https://img.shields.io/badge/73_tests-brightgreen?style=flat-square" />
-
-Multi-worker task execution with priority scheduling, dependency DAGs, retry policies, dead letter queues, circuit breakers, and real-time metrics dashboarding.
-
-</td>
-</tr>
-</table>
 
 ---
 
 ## Tech Stack
 
 **Languages** · Python · TypeScript · Java · C++ · Swift · JavaScript · SQL
+<br/>
 **Backend** · Node.js · Express · Django · Spring Boot
+<br/>
 **Frontend** · React · React Native
+<br/>
 **Data** · PostgreSQL · MongoDB · Redis · Firebase
+<br/>
 **Infrastructure** · AWS · Docker · Git · Linux
 
 <p align="center">
@@ -292,28 +203,3 @@ Multi-worker task execution with priority scheduling, dependency DAGs, retry pol
   <img src="https://img.shields.io/badge/HTCC_2024-1st_Place-FFD700?style=for-the-badge&logo=trophy&logoColor=white" />
   <img src="https://img.shields.io/badge/Presidential_Service-2x_Gold-C9B037?style=for-the-badge&logo=award&logoColor=white" />
 </p>
-
----
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mohosy&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="180" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mohosy&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="180" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mohosy&theme=tokyo-night&hide_border=true&area=true" width="100%" />
-</p>
-
----
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=mohosy&style=for-the-badge&color=8B5CF6" alt="Profile Views" />
-</p>
-
-<p align="center">
-  <b>Open to SWE internship opportunities at top tech companies</b>
-  <br/>
-  <i>Let's build something that matters.</i>
-</p>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19&height=100&section=footer" width="100%" />
