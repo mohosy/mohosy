@@ -20,6 +20,18 @@ USC Viterbi (B.S./M.S. Computer Science, Spring 2029) · Building production-min
 <tr>
 <td width="50%" valign="top">
 
+### [Surgical Data Mesh Platform](https://github.com/mohosy/surgical-data-mesh-platform)
+Production-style data platform for robotic surgery telemetry.
+
+- Microservices across Python + Java with service-level metrics
+- Streaming + lakehouse path (`Kafka -> Spark -> Iceberg`) and dbt/Snowflake-ready models
+- Multi-store serving patterns with Cassandra, Elasticsearch, and MongoDB
+
+`Python` `Java` `Kafka` `Spark` `Iceberg` `Airflow` `dbt` `Kubernetes` `Terraform`
+
+</td>
+<td width="50%" valign="top">
+
 ### [SurgGraph Pipeline](https://github.com/mohosy/SurgGraph-Pipeline)
 Graph-enhanced robotic surgery analytics pipeline prototype.
 
@@ -30,6 +42,8 @@ Graph-enhanced robotic surgery analytics pipeline prototype.
 `Python` `Kafka` `Airflow` `dbt` `DuckDB` `Docker` `Kubernetes` `AWS`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### [Distributed Task Queue](https://github.com/mohosy/distributed-task-queue)
@@ -42,8 +56,6 @@ Production-grade distributed queue in pure Python.
 `Python` `Distributed Systems` `Reliability` `WAL` `Concurrency`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### [Database Replication Engine](https://github.com/mohosy/database-replication-engine)
@@ -56,6 +68,8 @@ PostgreSQL-inspired replication system built from scratch.
 `TypeScript` `Replication` `Consensus` `Fault Tolerance`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### [KV Store Engine](https://github.com/mohosy/kv-store-engine)
@@ -68,8 +82,6 @@ Java key-value engine with a custom storage core.
 `Java` `Spring Boot` `Data Structures` `Storage Engine`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### [Load Balancer from Scratch](https://github.com/mohosy/load-balancer-from-scratch)
@@ -82,18 +94,6 @@ Java load balancer implementing production routing strategies.
 `Java` `Networking` `Distributed Systems` `Concurrency`
 
 </td>
-<td width="50%" valign="top">
-
-### [Container Runtime from Scratch](https://github.com/mohosy/container-runtime-from-scratch)
-Docker/OCI-style runtime simulator in pure Python.
-
-- PID/mount/network/UTS namespace isolation
-- cgroup-style memory/CPU/PID resource controls
-- Union filesystem with copy-on-write layers + Dockerfile parsing
-
-`Python` `Linux` `Containers` `Systems Programming`
-
-</td>
 </tr>
 </table>
 
@@ -101,6 +101,7 @@ Docker/OCI-style runtime simulator in pure Python.
 
 ## Additional Systems Projects
 
+- [Container Runtime from Scratch](https://github.com/mohosy/container-runtime-from-scratch): Docker/OCI runtime simulator with namespace and cgroup mechanics.
 - [Raft Consensus Simulator](https://github.com/mohosy/raft-consensus-simulator): deterministic leader election and log replication with fault injection.
 - [LSM-Tree Storage Engine](https://github.com/mohosy/lsm-tree-storage-engine): WAL, memtables, SSTables, compaction, and Bloom filters.
 - [Postgres-backed Pub/Sub Queue](https://github.com/mohosy/postgres-backed-pubsub-queue): durable messaging with consumer-group offsets and ACID semantics.
@@ -122,9 +123,9 @@ Docker/OCI-style runtime simulator in pure Python.
 ## Core Stack
 
 **Languages:** Python, Java, TypeScript, C++, SQL  
-**Backend:** Flask, Express, Spring Boot, Django  
-**Data:** PostgreSQL, MongoDB, DuckDB, Redis  
-**Infra:** AWS, Docker, Kubernetes, Linux, GitHub Actions
+**Backend:** FastAPI, Flask, Express, Spring Boot, Django  
+**Data:** PostgreSQL, MongoDB, Cassandra, Elasticsearch, DuckDB, Iceberg, Redis  
+**Infra:** AWS, Docker, Kubernetes, Terraform, Linux, GitHub Actions
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,java,typescript,cpp,postgres,mongodb,redis,aws,docker,kubernetes,linux,git&theme=light&perline=12" alt="Tech stack" />
