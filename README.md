@@ -99,6 +99,23 @@ Java load balancer implementing production routing strategies.
 
 ---
 
+## Surgical Data Mesh Snapshot
+
+<p align="center">
+  <img src="touchless-ops-copilot.png" alt="Touchless Ops Copilot interface" width="920" />
+</p>
+
+### Architecture Tradeoffs
+
+| Decision | Why this choice | Tradeoff |
+|---|---|---|
+| Kafka for telemetry ingress | Durable replay with partition ordering by patient/procedure and clean fan-out to downstream consumers | More ops overhead than direct service-to-service ingestion |
+| Spark + Iceberg lakehouse path | Open table format with strong interoperability for analytics/warehouse workflows | Higher runtime complexity and infra footprint |
+| Cassandra + Elasticsearch + Mongo serving layer | Optimizes for three access patterns: timeline, search, and flexible case documents | Additional operational complexity from multiple data stores |
+| Python ingest/indexing + Java query APIs | Fast data-service iteration plus JVM-backed API ecosystem and typing rigor | Requires strict contracts across service/language boundaries |
+
+---
+
 ## Additional Systems Projects
 
 - [Container Runtime from Scratch](https://github.com/mohosy/container-runtime-from-scratch): Docker/OCI runtime simulator with namespace and cgroup mechanics.
