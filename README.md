@@ -1,6 +1,6 @@
 <img align="right" src="presentationpic.png" width="260" alt="Mo presentation photo" />
 
-# Mo Shirmohammadi
+### Mo Shirmohammadi
 **Software Engineer | Data Infrastructure | Distributed Systems | Applied ML**
 
 USC Viterbi (B.S./M.S. Computer Science, Spring 2029) · Building production-minded systems in Python/Java/TypeScript on AWS and cloud-native tooling.
