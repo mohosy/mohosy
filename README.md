@@ -1,17 +1,24 @@
-<p align="right">
-  <img src="presentationpic.png" width="260" alt="Mo presentation photo" />
-</p>
+<table>
+<tr>
+<td width="62%" valign="top">
 
-<h1 align="center">Mo Shirmohammadi</h1>
-<p align="center"><strong>Software Engineer | Data Infrastructure | Distributed Systems | Applied ML</strong></p>
-<p align="center">
+<h1>Mo Shirmohammadi</h1>
+<p><strong>Software Engineer | Data Infrastructure | Distributed Systems | Applied ML</strong></p>
+<p>
   USC Viterbi (B.S./M.S. Computer Science, Spring 2029) · Building production-minded systems in Python/Java/TypeScript on AWS and cloud-native tooling.
 </p>
 
-<p align="center">
+<p>
   <a href="mailto:mshirmoh@usc.edu"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://linkedin.com/in/mohossy"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
+
+</td>
+<td width="38%" align="right" valign="top">
+  <img src="presentationpic.png" width="260" alt="Mo presentation photo" />
+</td>
+</tr>
+</table>
 
 ---
 
