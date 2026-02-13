@@ -23,9 +23,9 @@ USC Viterbi (B.S./M.S. Computer Science, Spring 2029) · Building production-min
 ### [Surgical Data Mesh Platform](https://github.com/mohosy/surgical-data-mesh-platform)
 Production-style data platform for robotic surgery telemetry.
 
-- Microservices across Python + Java with service-level metrics
-- Streaming + lakehouse path (`Kafka -> Spark -> Iceberg`) and dbt/Snowflake-ready models
-- Multi-store serving patterns with Cassandra, Elasticsearch, and MongoDB
+- Idempotent + batch ingest pipeline with replay-safe `event_id` handling
+- Real-time safety alerting and patient/procedure risk summaries
+- Streaming + lakehouse path (`Kafka -> Spark -> Iceberg`) with Cassandra/Elasticsearch/Mongo serving layer
 
 `Python` `Java` `Kafka` `Spark` `Iceberg` `Airflow` `dbt` `Kubernetes` `Terraform`
 
