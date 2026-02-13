@@ -1,5 +1,5 @@
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=mohosy&style=flat-square&color=0EA5E9" alt="Profile Views" />
+<p align="right">
+  <img src="presentationpic.png" width="260" alt="Mo presentation photo" />
 </p>
 
 <h1 align="center">Mo Shirmohammadi</h1>
