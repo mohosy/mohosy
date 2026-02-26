@@ -14,16 +14,6 @@ USC Viterbi (B.S./M.S. Computer Science, Spring 2029) · Building production-min
 
 ---
 
-## Contributions This Year
-
-<p align="center">
-  <a href="https://github.com/mohosy">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=mohosy&theme=github-compact&hide_border=true&area=true" alt="GitHub contribution activity graph for mohosy" width="920" />
-  </a>
-</p>
-
----
-
 ## Featured Projects
 
 <table>
